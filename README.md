@@ -6,9 +6,17 @@
 
 Go from a blank prompt to a playable prototype, a track you can mix, or an image you can use. Workbench gives you a desktop space to make things with AI and keep your project files together.
 
-### Build something you can try
+### Meet your Workbench
 
-Describe a website, app, or game and use the Create workspace to preview it as you iterate. Workbench can also help you work through documents, research, and longer projects.
+Start in Chat with Cale. Ask a question, attach a document, or describe a website or game you want to build. Jump between Chat, App Studio, Music Studio, and Projects from the same window.
+
+![Cale AI Workbench homepage showing Chat with Cale, the workspace sidebar, and the Cale companion](https://raw.githubusercontent.com/CaleMediaDev/cale-ai-workbench-downloads/main/media/workbench-home.jpg)
+
+### Turn an idea into a mobile app
+
+Tell App Studio what you want to make or start from a bundled template. Refine your app in chat, preview it in the browser or on an Android emulator, and export an Android APK. You can also export an Apple project to build on a Mac with Xcode.
+
+![Cale AI Workbench App Studio showing a sample hiking journal prompt and the device preview and export controls](https://raw.githubusercontent.com/CaleMediaDev/cale-ai-workbench-downloads/main/media/workbench-app-studio.jpg)
 
 ### Make a song. Mix it in the same app.
 
