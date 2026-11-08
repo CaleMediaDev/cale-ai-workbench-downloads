@@ -1,9 +1,19 @@
-# Cale AI Workbench downloads
+# Cale AI Workbench
 
-Official Cale Media Windows x64 installer and offline dependency files.
+A Windows workspace for local AI chat, documents, software, and creative projects.
 
-Open the [latest release](https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/latest) and download **Cale-AI-Workbench-light-Setup.exe**. Setup downloads and verifies the offline package from this repository. Allow about 64 GB of free space for the download cache and 84 GB for a fresh installation.
+## [↓ Download for Windows](https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/latest/download/Cale-AI-Workbench-light-Setup.exe)
 
-Start a free seven-day trial while online. After the trial, enter an access code from Cale Media. The bundled local tools work offline while access is valid.
+**Windows x64 · Free 7-day trial · No GitHub account needed**
 
-Visit the [Cale AI Workbench page](https://calemedia.com/cale-ai-workbench-white-paper/) to learn more or [contact Cale Media](https://calemedia.com/contact/) for access-code help. Third-party notices are included with the app. Source archives listed under release assets apply to the bundled third-party components.
+![The Create workspace in Cale AI Workbench](https://calemedia.com/wp-content/uploads/2026/11/workbench-create.jpg)
+
+### Getting started
+
+1. Run the installer. It downloads and verifies the offline package for you.
+2. Start your free trial while online. Local tools can then run offline while your access is valid.
+3. After seven days, enter an access code from Cale Media.
+
+Allow about **64 GB** for the download cache and **84 GB** for the installation. If both use the same drive, plan for about **148 GB** free.
+
+[Explore Workbench on Cale Media](https://calemedia.com/cale-ai-workbench-white-paper/) · [Release details and third-party files](https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/latest) · [Get help](https://calemedia.com/contact/)
