@@ -36,4 +36,6 @@ Run the Windows x64 installer. Setup downloads and verifies the offline package 
 
 Allow about **64 GB** for the download cache and **84 GB** for installation. If both use the same drive, plan for about **148 GB** free.
 
+**Automatic updates.** Starting with v0.5.712, Workbench checks for compatible app updates while it is open and online. If you have v0.5.711, run the latest installer once to enable them.
+
 [Explore Workbench on Cale Media](https://calemedia.com/cale-ai-workbench-white-paper/) · [Get setup or access-code help](https://calemedia.com/contact/)
