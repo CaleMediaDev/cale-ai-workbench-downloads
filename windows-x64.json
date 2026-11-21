@@ -1,11 +1,11 @@
 {
-  "version": "0.24.18",
-  "pub_date": "2026-11-21T11:02:59Z",
-  "notes": "## Video quality\n\nGenerated subjects could appear as streaks or unrecognizable fragments. Video now uses a larger frame from the start and 20 sampling steps. The frame menu shows the generated dimensions. Landscape is 1280 × 704, portrait is 704 × 1280, and square is 960 × 960.\n\nOn a 12 GB RTX 3060, we repeated the previous two-second sailboat test with the same prompt, seed (3115439229), model, duration and encoder. The hull and sail remained recognizable in opening, middle and ending frames. Worker time increased from 36.9 seconds to 210.5 seconds. A four-second square desktop generation at a fresh seed took 472.6 seconds. We tested playback and verified the exported MP4 against the render hash. Four composer and request recovery checks passed.\n\nSource commit 6edc997811fa2c725376a80560fd054726c2a0e6.\r\n",
+  "version": "0.24.19",
+  "pub_date": "2026-11-21T11:18:15Z",
+  "notes": "## Faster full-resolution video\n\nVideo now uses 16 sampling steps and can reuse intermediate model predictions during the middle of generation. The app selects the requested number of frames before H.264 encoding, then packages that stream for playback. This removes a second lossy encode. All three native frame sizes remain available.\n\nOn a 12 GB RTX 3060, a two-second 704 × 1280 rooftop fashion portrait took 208.1 seconds with the previous release workflow and 130.5 seconds with the updated workflow. Each timing is a single worker run including engine startup and MP4 verification. Both runs used the same prompt, seed, model, frame count and dimensions. The figure applies to this test. Results vary by prompt, hardware and clip length.\n\nThe packaged app generated a separate four-second portrait in 256.9 seconds. Preview playback and export passed. We inspected frames across both shots, checked H.264 format and unique decoded frames, and ran the four composer and recovery checks.\n\nSource commit c99a57f0f0abecf8ba6dd22a5dfe120f1ee74d99.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.18/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGtQZ3gxeXZXRWJiYzBTTWs0YVNJYlpCd3ZhZldpZHBmR3RsT0JMeW5BWW85eVlmcnZ5a2NkZVBIUVpMMFBrS0EwR2RkYjBLQWVjWk1sc0xkSjNBM0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjU4Nzg0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjE4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjE4CkVaWHlLRXdFdURNUnIxeHhod2FUVnExZWptMEk0L0pNVHdRTTFIMWRSL25IZW8zeFdudHBmVEh5T01lQlJNVFFRZ1Rvbzd2Zi8zMEJIaUN0Y3A1akRRPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.19/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHZmUkx4RlpSb2J2dFJtNytQZlYvN2pyR2NSSXhlS2V2cUNsNm4zTG1Oa1lHTUJRQXEwZEhveWVrWkd3Z0xqQnI0REJhTFo3b1BEQjY3SHR4ZndZRlFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjU5ODI5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjE5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjE5CndJSXJQenBUemRQSFREcjBaVTZ3S2NOeWlCcDEwVkNvM2FQMjV6UmlvUUNmeVJTVGFvZHpMN01OOE5Tb1U0dkxHbGpudmhSSFlVa1lBa3hoTVlaRUJRPT0K"
     }
   }
 }
