@@ -1,0 +1,11 @@
+{
+  "version": "0.24.8",
+  "pub_date": "2026-11-21T04:35:22Z",
+  "notes": "## Local Radio\n\nThe Broadcast Desk and mini-player now show animated signal bars and a live elapsed clock while Workbench writes lyrics or creates audio. The displayed stage follows the actual job. Reduced-motion mode keeps the clock and uses stationary bars.\n\nStation refreshes reuse one database connection and fetch less data. On the same Windows machine, median time across 50 station reads fell from 8.8 ms to 7.6 ms in installed testing. The renderer also checks immediately for an available result. Model generation times depend on the PC and model.\n\n## Automatic Windows updates\n\nNew Windows installations check the public update feed at launch and every six hours. Workbench verifies the release signature and version, downloads in the background, and applies the update the next time you launch after closing all Workbench sessions. Projects, songs and models stay in their workspace. The app remains free.\n\n[Source for 0.24.8](https://github.com/CaleMediaDev/cale-ai-workbench/commit/0d8624ade6fc54b9b573418cff97d16cc834562f) · [Local Radio changes](https://github.com/CaleMediaDev/cale-ai-workbench/commit/7b662c5bf0464b2bf36a40fd2125204f67ccb0b6)\n",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHAzY2xTSDFadXhHSlMzTEdsRXNLbXdOOFlQdThxZm42cGluckRkUnNhcWFMSW01OXNHRFJaQ1RQbDdRTWppUGZRdTJkbjVGWnNzR1RUb24yVERLZHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjM1NjU2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMjQuOApRVnVvQUlGUE1YaWNOSnpkalVTMjl6RW9vV3E2QW14d0RsdVpFZ1VFVTdrQnRtYkVtNWwvZi9waHBIYU4vNjlJUXozVk9ybStualdqQ0lZcGplQkxCdz09Cg==",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.8/Cale-AI-Workbench-light-Setup.exe"
+    }
+  }
+}
