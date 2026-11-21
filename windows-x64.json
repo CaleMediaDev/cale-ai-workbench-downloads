@@ -1,11 +1,11 @@
 {
-  "version": "0.24.21",
-  "pub_date": "2026-11-21T11:58:46Z",
-  "notes": "## Video fixes\n\n- Transparent PNG and WebP starting images use a white background. Partially transparent edges blend into it. Hidden colors no longer bleed into the generated shot.\n- Video history keeps keyboard focus during automatic refreshes. If a focused action disappears, focus returns to the same clip.\n- A damaged draft now shows **Start a new draft**. Recovery saves a local backup and keeps a readable pending request available to check.\n\nThe packaged Windows app generated a one-second clip from a transparent image on an RTX 3060 in 63.4 seconds. A decoded sample of its transparent background in the first frame measured RGB 255, 255, 255. Playback and verified MP4 export passed. Regression checks passed for 26 native cases, 11 media cases, seven interface cases and two image cases. Two native fixture-writing tests were skipped.\n\nSource commit 88ff097ecfc53f74b20bc13ed4f5f1663656404c.\r\n",
+  "version": "0.24.22",
+  "pub_date": "2026-11-21T18:13:02Z",
+  "notes": "## Director’s Slate Video Studio\r\n\r\n- Open Video to generate a clip on a photographic clapperboard. Choose a starting image or describe a scene, then set the frame, duration and sampling.\r\n- Play the result and save an MP4 from the field monitor. An empty library includes a labeled, playable sample.\r\n- Recent clips use stills from each saved video. Select a take to play it. On narrow windows the slate and monitor stack.\r\n\r\nThe packaged Windows build generated a one-second shot from a selected image in 59.1 seconds. Its preview, history thumbnail, playback, keyboard focus, damaged-draft recovery and verified export passed. The page was checked at 1568 × 1003, 1280 × 720 and 960 × 680. Regression results included seven UI checks, 26 native cases, 11 media cases and two image tests. Two native fixture writers were skipped.\r\n\r\nSource commit 132ce34fbcd588cd214a0a5a8f8f3f03e1eed8ce.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.21/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG5CT284VjA4YmlmazhtSFdSb2w1UytCdHY5bGhMLzFKSnRqNVFsYVo3Rm9NUHI0M2ZCY1FiOUVsa3VJNXRyRm5PZEJLUncrN0N6c1J1Zmc4N3NBUFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjYyMjYyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjIxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjIxCmZzeTBhVHlzRUlvK2RIaUFUbmhnTS9SVDhydXF1QThkTFE1SWpVZ1NjVjg4ZzdJejE1RjZQVlloYjNROGhFMm5hY3VZMy8zek0ySVIxY1NZNFF6eUFRPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.22/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHB6dkFuZzRvSDdGZm9yT0ZOU29tK3BQbml3VE9EeEhuZmlTZzN5RjRzejF6c2pFKzRCNnI3ZGZwdktzdkhmeG9SQ3IwTmpVZ054QnJxbldMblp3dFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mjg0NzEzCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjIyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjIyCm1kZ0l5T1NwMUxUVWlYZGVpejlvVkp2U3Z2T0ZMNklsb2VZTzI0VDRhZkpvbUlxY3hxT2l5cS9WZWJCcERQNWUxaTdUdkkxVFFUYlE2SERoOHdDV0RRPT0K"
     }
   }
 }
