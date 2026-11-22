@@ -1,11 +1,11 @@
 {
-  "version": "0.24.41",
-  "pub_date": "2026-11-22T02:22:48Z",
-  "notes": "Local Radio keeps queue numbers out of the creative brief. Create a Song and Local Radio remove writer commentary, production cues and end markers from generated lyrics. Sung sections receive verse and chorus structure when needed. Choose an installed lyric writer on the song, station creation or station edit form. Automatic retains the abliterated default. Entering your own lyrics bypasses the writer.\n\nOn the Windows desktop build, a 30-second Create a Song recording and a three-minute Local Radio track passed the vocal check. A separate transcript check detected none of the reported phrases in either recording (55 and 266 recognized words respectively). Verified song and station model selections, station edits, and queued song settings. Three local writers completed the same lyric-only brief. 41 native music checks, seven native radio checks and 21 music adapter checks passed. An earlier 30-second development render failed sustained vocal coverage before the arrangement correction.\n\nSource commit b9b5fbb281cc77886c95f394f4e523d42a963924.\n",
+  "version": "0.24.42",
+  "pub_date": "2026-11-22T03:03:20Z",
+  "notes": "Create Song and Local Radio now render short lyric drafts without a minimum word count. The app no longer starts a speech model, transcribes songs, or grades vocal coverage. Finished audio goes straight to the playlist. Continue reuses the saved draft for songs previously blocked by the minimum.\n\nOn Windows, recovered the reported 78-word Create Song draft and a 25-word radio draft in an isolated workspace. Each produced a three-minute WAV with no speech check. The focused music, radio, database recovery and adapter suites passed.\n\nSource commit 8bf486454f52c4d7881bed6fb0c75107ef17abd7.\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.41/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGdXOG9zWVlYanVodzB5REdSRXozMngvYXBSbTZPU0doelRqdk9Mb092YTZsYldPQXNQblM0dkJOYzZSYklaVWFBVy9iZnkxYW5qQnNuckpyWGY4L3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE0MTAwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQxCmpHVWwxZGRDampMRkFNMGQ4UEZ5M2JmRUxVdGx4M1ZKcU1vYTZla2t5eFBaYlRDRTFubHd0Qy9WbGFPMzA2R0taY3JpU3o1VjBtTG1KeitXNXArM0FnPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.42/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG15ZzFPa3hmQ25IdWtxVkJqVUp4V3JwejZSNEdkc0xVZ2ozV3I2S3I1ckU5cFM5VXZwTzNjcXJRMnRVT21PTUpHUVprUFBWbGtGWks2SWh1MkxnVEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE2NTE3CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQyCi96YWlseSs2L2pDcFRWVXZqUUtVME1vTTZ1dzFQS1BBNWpDdHlJZ0hxODF0Z0pNN241eE5Rc2VpWnprOWVCLzYvR3B2MXRwYUJiekZwbUhxYjh5SUN3PT0K"
     }
   }
 }
