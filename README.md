@@ -8,7 +8,7 @@ Run the installer and open **Cale AI Workbench**. The Rust app opens without an 
 
 ## Optional donations
 
-Click **Donate** in the app to make a one-time contribution of any amount in USD. Donating is optional and every app feature is available for free. [Donate via Stripe](https://donate.stripe.com/8x2fZie4R3jCb9b1fS14403)
+Every Workbench feature is free. To support development, visit [@tahoecale on Venmo](https://venmo.com/u/tahoecale).
 
 ## Existing installations
 
