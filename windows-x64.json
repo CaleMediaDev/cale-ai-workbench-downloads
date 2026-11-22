@@ -1,11 +1,11 @@
 {
-  "version": "0.24.53",
-  "pub_date": "2026-11-22T08:51:02Z",
-  "notes": "Video Studio now uses shorter render batches for Storybook cartoon on graphics cards with up to 16 GiB of memory. The same four-second shot on an RTX 3060 12 GB took 4 minutes 1 second in regular Cartoon and 2 minutes in Storybook cartoon. Both used the same seed, artwork, 1280 × 704 canvas and all 16 sampling steps. Storybook draws eight distinct frames per second and delivers a 24 fps MP4.\n\nDuring a longer production, a single eight-second batch took over ten minutes and used 6.77 GiB of shared GPU memory on that PC. The new renderer measures card capacity at launch, splits new work on smaller cards and reuses already-verified longer shots when resuming. Tests cover continuity, shorter batches, recovery of larger completed shots and the final frame count. Workbench also preserves compatible H.264 picture packets when attaching a matched soundtrack. Source commit b4684c48788f908dfb7907eb4f143b277435d3c0.\r\n",
+  "version": "0.24.54",
+  "pub_date": "2026-11-22T22:25:48Z",
+  "notes": "Video Studio accelerates realistic cinematic shots that start from a reference photo or continue from the last frame. A verified 332 MB motion adapter uses four steps at the original resolution and 16 generated frames per second. Text-only opening shots retain the full 16-step renderer. Existing installations without the adapter retain the standard path, and the optional Setup-CinematicVideo.ps1 provisions it once per workspace. Interrupted movies with standard checkpoints retain their original rendering style.\n\nVerified the real reference-guided eight-second creek opening on an RTX 3060 12 GB at 1280 × 704 in 213.5 seconds. The new render keeps one fox and a painted turtle. Automated tests exercise references, continuations, 16-step text openings, 184-second assembly and pre-upgrade checkpoint recovery.\n\nSource commit f1a84701ce96a684311304a6f12f44e42514a9e4.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.53/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGc3cWxieDdpdmJ5SGpKditHZ2JWUW1EUlYydW91WmlxQW1obG1FOXBFV2R2ZEtRZXVLQ0VwbmZtUXBtQUtnQ2pDcWlvQzQvS2xIWTJDMEREbHpzbWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzM3MzIxCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjUzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjUzCmQ5cWtPUjlXWTZrcXNhNUcyZ1RtRjUwelNVeEJ6aW9oeU82eS9ZNERpMUtSQ2Iybk1vTnpKMm5JY3FndTA3WkgwYUZ4NG84aFArQ25xamVKd3pVTkRnPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG5YbFN4TVdVSlpaRHJxeDdFVThRajRNSXRkNVFLWHRNVEVDcHR3ZmE1OUZtVFZpdzRNSURGeUtDeWlmRkllczkvY20rd0RkM3ZIdmZvdlpoTC9tS3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzg2Mjc4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjU0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjU0ClRINER5SzBDTzIvZ1M1T1hKcDJ1THY0Q0JZalJneG1nRW5uL2ZpYVQ4QUxYdkk5ZUxVTUo3VkxUM0c2SzI3SGpBaFgvbG8wbWJldU05NnZQTHFtaEFnPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.54/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
