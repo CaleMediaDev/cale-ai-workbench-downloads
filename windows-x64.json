@@ -1,11 +1,11 @@
 {
-  "version": "0.24.35",
-  "pub_date": "2026-11-21T23:48:31Z",
-  "notes": "## Preview your own filament colors in Windows 0.24.35\r\n\r\nIn Saved Models, choose **3MF · 4 filaments** to see the selected model with its suggested spool colors. Pick each slot's color or enter a six-digit hex code. The rotatable preview redraws as you edit. The percentage beside each slot shows its share of the model triangles. Unused and duplicate spools keep their slot numbers. Workbench remembers custom spools on this PC for other models and future sessions. **Use model colors** restores automatic matching.\r\n\r\n## Custom spool and preview validation, Windows 0.24.35\r\n\r\nTested the gallery's native Windows workflow with a saved five-part owl. Compared the actual WebGL draw buffers and material colors for all 147,799 triangles with the resulting 3MF slot assignments. Verified custom slot order, color-picker and hex input, invalid input, duplicate colors, automatic reset, model switching, and offline ElegooSlicer toolpaths using the same four spool colors. Also checked full-color 3MF, STL and GLB exports. No physical printing was performed.\r\n\r\nSource commit 4da3dd005f49024662d7ecbd62fa1827824ff421.\r\n",
+  "version": "0.24.36",
+  "pub_date": "2026-11-22T00:12:20Z",
+  "notes": "The Cobalt owl was too small to judge filament colors. The preview now opens facing forward in a taller panel and fits the mesh to the available width and height. In a Windows WebView2 comparison using the same saved owl, the visible model grew from 123 to 362 pixels tall. It measured 283 pixels tall in a narrow window. All four swatches, live recoloring and wheel zoom were checked in the packaged executable.\n\nSource commit 74701580bf8b3d6d104cb2362f1a552ddc994a61.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGxUaW1SbjlpUjhON2E4MFRiQ0Vla21LTmFrWTVyS0xBRTQ5dTNLeUtLcW5GMld6VHRqUmVTam1WL0dXc29aWFF1ZmgyYldLdVlKbmVpbmhOZTU2QUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzA0ODQyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjM1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjM1Ck5lc2lRejAvSlNMWHd0a25tUDZrRTZOeWFzcUNNYzZiaWpKR1I2YzlwRzBqcXlkS3pLSWNpUVp1Z1hGU3dYRUYrbjQ4UGQwYUUrOHQzc3VnWHVwWkJRPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.35/Cale-AI-Workbench-light-Setup.exe"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.36/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHRBdHg0ZTFxamp5WHF2R2hORC9WOFQvUXovMndhUlBIekF3SkRjL3pGNS92UUlZdmxRbHd5bzRmU1lMRllhYjF0ZlVnVXdDY1F4eFhuMzdveTR2elFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzA2MjczCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjM2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjM2CjFXSDViRHgvUzREN3ZXM3BHREh4dEdDRDJNMXE2NVBRb1BIbktIamZ5TnlZd1Y2dmxhZzlOUm9nZEdwZXY3MEdWcmEzQ05VQ2ttMVhESEVmTEFTakN3PT0K"
     }
   }
 }
