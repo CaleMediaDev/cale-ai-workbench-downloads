@@ -1,11 +1,11 @@
 {
-  "version": "0.24.46",
-  "pub_date": "2026-11-22T04:46:33Z",
-  "notes": "Create a Song now shares Local Radio production notes for short genre requests. Conversational wording such as make me a Detroit rap song receives the same programmed drum and 808 direction as the genre label. Radio continues to reuse notes per station, while one-off songs derive their own directions.\n\nSubmitted Detroit rap through the Create Song form, verified that vocals were selected automatically, and completed a two-minute recording. A separate instrumental UK garage recording exercised local production-note generation outside a radio station. All 16 adapter tests passed, including specific tempos, fusions and instrumental beats.\n\nSource commit 9b878bda4f511e8831a43dc18107922de2ca3822.\n",
+  "version": "0.24.47",
+  "pub_date": "2026-11-22T05:43:13Z",
+  "notes": "Video Studio creates four-second clips with the higher-quality 16-step preset. Type a scene and select Generate video. Short descriptions get camera direction automatically. Starting images and explicit shot direction still work. The original prompt stays in Recent clips.\r\n\r\nA moving filmstrip now shows when a clip is being prepared and rendered. The monitor respects reduced motion, and generation messages use Video Studio terminology. Removed the sampling and clip length selectors.\r\n\r\nThe optional Donate button shows the owner-provided Venmo QR card and opens @tahoecale. The public download page also uses Venmo.\r\n\r\nSource commit c18f763c78c57b3c23f018d4efcc51d03d66b389.\r\n\nVerified a four-second prompt-only MP4 on an RTX 3060, including playback and export. The packaged desktop donation and generation controls passed. The supplied QR code decodes to Venmo.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGpwR1dITDZRQit0S0dybit2NUNMWDMvaW0rWTZRdHRvTnVvQ3BocEh5WkFTZ0UyNUVjdG5uVTZYdXVHNE9iQVJNdDcrZGVnNS94NFVBRC9BZ0VoV0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzIyNzIyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQ2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQ2CnZ1bGNaaitvS3lOREdDRUd5aXFIMmpUNU53RDFmRW81K2RFTnFLOHpCdENhU1NORnREYlBhZVNNRENlRkhOdVpnelQvc1hPdEtIVGQ0dXRuWEdsVUNRPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.46/Cale-AI-Workbench-light-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHRIWkQvWmxqOGlyL1FPMGYxZ0l3MDBwMTNYVnFLd0NJckV1MjU5UmlFSkNkUjBjTzJCWUFwM0dlbE5POGY2K25DcFFRQ29SdStwMzFtaThZYVBtL0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzI2MTIyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQ3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQ3Ck5Sd0JoZHhZQ0tFNHhlZjBUSnAwVFpiQ2MxT1pGb0t6L29PRXNNQWo5ckI4RElzeVVGVUR0bXA2MVYvbWk2RmV1QS9LWmN1UVY2YVVPY3d6L1R5OERRPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.47/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
