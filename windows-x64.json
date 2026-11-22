@@ -1,11 +1,11 @@
 {
-  "version": "0.24.37",
-  "pub_date": "2026-11-22T00:32:48Z",
-  "notes": "3D Studio can now turn a local PNG, JPEG or WebP into a saved model. Choose Image to 3D, pick a picture of one object, then select Create 3D model. The studio uses that picture directly as the reference. Both input modes show a rotating wireframe and scan line during generation. Shaping shows its actual step count. Progress and setup messages use plain language. Reduced-motion settings show a stationary wireframe.\n\nOn the Windows RTX 3060, a test picked an owl PNG through the native file dialog, verified its reference pixels, observed the animated and reduced-motion states, and checked the shaping steps. The resulting five-mesh GLB reopened from Saved models. A separate text-prompt job drew a reference and saved its own model. Also checked JPEG orientation and resizing, transparent PNG and WebP, and invalid image data.\n\nSource commit d8c99f46ede9b827fd0548be1a69a56a9b1b2e51.\n",
+  "version": "0.24.38",
+  "pub_date": "2026-11-22T00:45:07Z",
+  "notes": "Detailed 3D generation now samples the shape at twice the linear resolution and keeps up to 1.35 million triangles. The studio saves the textured high-resolution mesh and uses that same revision for its preview, filament colors, and exports.\n\nOn an RTX 3060 the image-based owl produced 1334370 triangles and the wall-mounted cup holder produced 1308684. Both reopened with four textured views. On the same decoded owl surface, the 95th-percentile distance from 32,000 sampled points to the simplified surface changed from 0.063 mm to 0.0074 mm at a 100 mm model size. STL, full-color 3MF, and four-filament 3MF were inspected for geometry and color data where applicable.\n\nSource commit dccf9d5331aad75b3496b56fc5004d157f5d92bd.\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.37/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGhyY3EyYzltUXc4OWlPaVFYUVJuUkZxaXp0VlJ3WXY4ZEgwcU5nWVZaMTA2SjJhODVUNm9QM3RQVEx2djA0MGxFSFpVenRTRUc0bi85TFZ2MjJ5dmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzA3NDk3CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjM3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjM3CmFzM2lzazhPeHZsYTBwMEE1dURLT1h4d0VKUVZSdTNjWFBpK2ZWRW1PU2lEamgzOXludDdOQUxtc2NLSWFxV0hVbERETmxLY0QxU21QS3Y2emh5R0RRPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.38/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHJBV3JrcTlDWEtpQUVub05LcUJ6Y3R5b2JzZDRScnNjLzFYbDFycHFPNC9EWWdXK3lrM0c4VXBzU25XWml4Wk1seEVLNEZPOSs4UHF5SElnZm95UFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzA4MTEwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjM4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjM4CnhqcS9IQ24vczBqd3VxOGY3SEVQMHlMRkRKaEpqUkx1LzJPZjhqWlZOd294M3VDMkkzYlJsdys3N0pyWkF1MndpWXYxWlNYc1lQM20rSUxPS0NOWUR3PT0K"
     }
   }
 }
