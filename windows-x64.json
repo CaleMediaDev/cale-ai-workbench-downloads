@@ -1,11 +1,11 @@
 {
-  "version": "0.24.42",
-  "pub_date": "2026-11-22T03:03:20Z",
-  "notes": "Create Song and Local Radio now render short lyric drafts without a minimum word count. The app no longer starts a speech model, transcribes songs, or grades vocal coverage. Finished audio goes straight to the playlist. Continue reuses the saved draft for songs previously blocked by the minimum.\n\nOn Windows, recovered the reported 78-word Create Song draft and a 25-word radio draft in an isolated workspace. Each produced a three-minute WAV with no speech check. The focused music, radio, database recovery and adapter suites passed.\n\nSource commit 8bf486454f52c4d7881bed6fb0c75107ef17abd7.\n",
+  "version": "0.24.43",
+  "pub_date": "2026-11-22T03:34:04Z",
+  "notes": "Fixed genre detection when a dubstep production request follows the lyric subject, including “a song about … it should be a dubstep with wobbles and bass drops.” Create Song and Local Radio now use the bass arrangement and tempo for that wording. Mentioning dubstep only as the subject of a folk song still preserves the original style.\n\nVerified the reported word order in the adapter regression suite (16 checks) and rendered three 90-second vocal songs through the desktop queue, with explicit production requests after the story. The engine receipts included dubstep at 140 BPM, brostep at 150 BPM, and melodic dubstep at 144 BPM. These are production settings. Listening preference is up to the listener.\n\nSource commit ee1c9de4aeb19e08687fc0944793623249dfd55b.\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.42/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG15ZzFPa3hmQ25IdWtxVkJqVUp4V3JwejZSNEdkc0xVZ2ozV3I2S3I1ckU5cFM5VXZwTzNjcXJRMnRVT21PTUpHUVprUFBWbGtGWks2SWh1MkxnVEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE2NTE3CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQyCi96YWlseSs2L2pDcFRWVXZqUUtVME1vTTZ1dzFQS1BBNWpDdHlJZ0hxODF0Z0pNN241eE5Rc2VpWnprOWVCLzYvR3B2MXRwYUJiekZwbUhxYjh5SUN3PT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.43/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHNSL3czN21RdnkzWUZpNzl6OEFEblB5N2JYUG5TREgrZWFBYnhCY0VGbXRMZkpoVTV4MGhYU2Zxa3hnMENZLzRyS0ExdUtEUHdSTUUrTDkwVElJcFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE4MzY4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQzCk5oRUExYm9sYUxZYm5DWjFuOGpTZTkxV1lKOENBL0ZGT3pzS01XRE5VOGdNSkFuUlNiUlhhTEdoMENyMHM2NGR3VHJ4Q21Kb1RwUGlxM3JycVk3WUFRPT0K"
     }
   }
 }
