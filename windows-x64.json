@@ -1,11 +1,11 @@
 {
-  "version": "0.24.44",
-  "pub_date": "2026-11-22T03:58:15Z",
-  "notes": "Create a Song and Local Radio now use the fast local Qwen3.5 Abliterated 0.8B lyric writer automatically. Removed the writer menus. Song, ballad, duet and vocal requests select vocals in the composer. The renderer follows the requested vocal style. Direct dubstep requests favor a long wobble and a heavier second drop. Other styles follow the song or station brief.\n\nRendered vocal dubstep, a country ballad on a station with an older writer preference, and instrumental house in an isolated desktop workspace. Confirmed both vocal songs used the fixed local writer, the instrumental bypassed it, and the renderer received the three distinct styles at 140, 92 and 126 BPM. Checked nine additional style requests at the renderer input.\n\nSource commit f1f5f331ce95ef456dc7a2ca474dbf1184a3d12b.\n",
+  "version": "0.24.45",
+  "pub_date": "2026-11-22T04:28:59Z",
+  "notes": "Local Radio builds each track from its own station sound. Common genre names expand into rhythm and instrumentation. Other short briefs can use a compact local production description, reused for that station while the sound and performance match. Longer directions go directly to the renderer. Detroit rap gets programmed drums, syncopated 808 bass and rapped verses. Explicit tempos, fusions and instrumentals keep their own directions.\n\nRendered two three-minute Detroit rap station tracks from the original two-word request. Verified separate UK garage, reggae and bossa nova stations, repeated UK garage tracks, and a station edited to zydeco. Ran 16 adapter tests including explicit BPM, instrumental beats, fused styles, and genre words mentioned only as lyric subjects.\n\nSource commit ec764acaa9f133824a7334ca87265284c5c377da.\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.44/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHNHb1U4U1FJSVh5THlKTnpMNFpsQUhkWFpJSzE0SllIU1dodjgxQ290UkVnV0lmSFMzZTJabVdPcHFBRE10NlBpK3BLaXJQOEFYVkFNcUEyYVFQbVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE5ODIzCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQ0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQ0Cm9UcWtLKzVET0dtTTA4M1hJTkVJdERqMUtxYzVYeUZKU1FZV3hYTzRrallqbXNMMEdIQzQ4RGxWOXZ6UVB5QmY4cVNvVlI4cXdIa01KYUk2T2g1SkR3PT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.45/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHFhQWl2QVFacnVnQkFlWU1pVC9XbzRDdkpwQjZURjB4eWQrY2syNjh4WXZwL3NCNlVsL2M1M1BQZncrdXNBZGR6QUdWNVhDcUNURDFMaHprcXhOQmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzIxNjY2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQ1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQ1Cms1dldDUjdpTHBCT25wREk5VmpKZWl4YzVXd2RuZ3FqcmZVN0dDYmk2OVY0aU5GakNFanFXUVA1TENRcVBoTi9wekUwMDdWRlhEQzltZEc2bHI0MEJBPT0K"
     }
   }
 }
