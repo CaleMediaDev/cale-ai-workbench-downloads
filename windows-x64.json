@@ -1,11 +1,11 @@
 {
-  "version": "0.24.45",
-  "pub_date": "2026-11-22T04:28:59Z",
-  "notes": "Local Radio builds each track from its own station sound. Common genre names expand into rhythm and instrumentation. Other short briefs can use a compact local production description, reused for that station while the sound and performance match. Longer directions go directly to the renderer. Detroit rap gets programmed drums, syncopated 808 bass and rapped verses. Explicit tempos, fusions and instrumentals keep their own directions.\n\nRendered two three-minute Detroit rap station tracks from the original two-word request. Verified separate UK garage, reggae and bossa nova stations, repeated UK garage tracks, and a station edited to zydeco. Ran 16 adapter tests including explicit BPM, instrumental beats, fused styles, and genre words mentioned only as lyric subjects.\n\nSource commit ec764acaa9f133824a7334ca87265284c5c377da.\n",
+  "version": "0.24.46",
+  "pub_date": "2026-11-22T04:46:33Z",
+  "notes": "Create a Song now shares Local Radio production notes for short genre requests. Conversational wording such as make me a Detroit rap song receives the same programmed drum and 808 direction as the genre label. Radio continues to reuse notes per station, while one-off songs derive their own directions.\n\nSubmitted Detroit rap through the Create Song form, verified that vocals were selected automatically, and completed a two-minute recording. A separate instrumental UK garage recording exercised local production-note generation outside a radio station. All 16 adapter tests passed, including specific tempos, fusions and instrumental beats.\n\nSource commit 9b878bda4f511e8831a43dc18107922de2ca3822.\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.45/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHFhQWl2QVFacnVnQkFlWU1pVC9XbzRDdkpwQjZURjB4eWQrY2syNjh4WXZwL3NCNlVsL2M1M1BQZncrdXNBZGR6QUdWNVhDcUNURDFMaHprcXhOQmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzIxNjY2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQ1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQ1Cms1dldDUjdpTHBCT25wREk5VmpKZWl4YzVXd2RuZ3FqcmZVN0dDYmk2OVY0aU5GakNFanFXUVA1TENRcVBoTi9wekUwMDdWRlhEQzltZEc2bHI0MEJBPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGpwR1dITDZRQit0S0dybit2NUNMWDMvaW0rWTZRdHRvTnVvQ3BocEh5WkFTZ0UyNUVjdG5uVTZYdXVHNE9iQVJNdDcrZGVnNS94NFVBRC9BZ0VoV0FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzIyNzIyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjQ2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjQ2CnZ1bGNaaitvS3lOREdDRUd5aXFIMmpUNU53RDFmRW81K2RFTnFLOHpCdENhU1NORnREYlBhZVNNRENlRkhOdVpnelQvc1hPdEtIVGQ0dXRuWEdsVUNRPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.46/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
