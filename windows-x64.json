@@ -1,11 +1,11 @@
 {
-  "version": "0.24.61",
-  "pub_date": "2026-11-23T05:08:24Z",
-  "notes": "Workbench now prepares local creative studios automatically the first time you open a new Windows workspace. Progress appears under **Settings → Offline studios**. Keep the PC online for initial setup. A fresh Android SDK requires a separate license review there.\n\nThe installer verifies model files before using them, resumes interrupted downloads and keeps 20 GiB of free disk space. Music setup includes the small checkpoint and matching model code required to render on a fresh installation. Documents use the managed offline OCR models. Video Studio recognizes the bundled encoder on a clean installation. Detailed 3D models use a verified mesh extractor installed alongside the shape engine. This release also includes the natural facial motion change for spoken video introduced in 0.24.60.\n\nDevelopment record: [5db8761](https://github.com/CaleMediaDev/cale-ai-workbench/commit/5db8761d2462d012a36d84e49e995682b975df65).\r\n",
+  "version": "0.24.62",
+  "pub_date": "2026-11-23T06:18:03Z",
+  "notes": "The left sidebar now starts with Chat. Workspace and its project count have been removed from the sidebar. Select Workbench in the top breadcrumb to return to your projects.\n\n[Source update and verification](https://github.com/CaleMediaDev/cale-ai-workbench/commit/7509f6adcc1748b0c6f71e5d5b8abe5998d0daab)",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG5IcUk5Y1gzVzBENWM3Ym90cGcvc0F2TWwyTFQwT2hjblJocmRRUHVQU2xzU0VjamNIaENoM25PbWZ2RDlrMjZMMU90U1lLekZRT09EK0FvcHp1WHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDEwMzk4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjYxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjYxCktvMkdMUU9SSlRrNWFzdkdRN1pmaFZFaHJJanV4L00rdXpIVkk1dFUzSmszaU85TXYyREJQYVZVTnRLR0lzYlg2MGNmeEJyNlE3UkljaHBjUUR6NUJnPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.61/Cale-AI-Workbench-light-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHR4T0F4c3pTWk5uR01LVExoRmc1Z2c4L1BOby9sSnJoNDFLN2RQMWk3cFZBOWZBY3E5cGlzL0d0Y3pjTEpjaDJQMEU2TGpCS0lFemthV1B1Qmlma3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDE0NjE0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjYyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjYyCmFlQXduaGh3eU81NEZ5NXU2NHZUa1ZmSElkWlZRZGNLaklhQ0krTWY4aFBESUExRGthZHo5YzBiem14NEVYUkgwTHlUd1BRblpIUXhJM0Voa0lORERRPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.62/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
