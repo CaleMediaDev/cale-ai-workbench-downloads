@@ -1,11 +1,11 @@
 {
-  "version": "0.24.62",
-  "pub_date": "2026-11-23T06:18:03Z",
-  "notes": "The left sidebar now starts with Chat. Workspace and its project count have been removed from the sidebar. Select Workbench in the top breadcrumb to return to your projects.\n\n[Source update and verification](https://github.com/CaleMediaDev/cale-ai-workbench/commit/7509f6adcc1748b0c6f71e5d5b8abe5998d0daab)",
+  "version": "0.24.63",
+  "pub_date": "2026-11-23T06:39:46Z",
+  "notes": "Video Studio's Recent clips section now uses a responsive thumbnail gallery. Play a clip from its still, copy its full original prompt, and scroll to load older videos. Clip length and recorded render time are shown separately. New render timings include soundtrack preparation; older clips display the timing saved by their renderer when available.\n\nShare to socials opens the selected MP4 in File Explorer and opens the chosen YouTube, TikTok, or Facebook site. You control the upload and publication.\n\nThe sidebar update is included. Click Workbench in the header to open your projects.\n\n[Development record and verification](https://github.com/CaleMediaDev/cale-ai-workbench/commit/b48aa712808e92575ff54c13d0f4fa5262aa7555)\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHR4T0F4c3pTWk5uR01LVExoRmc1Z2c4L1BOby9sSnJoNDFLN2RQMWk3cFZBOWZBY3E5cGlzL0d0Y3pjTEpjaDJQMEU2TGpCS0lFemthV1B1Qmlma3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDE0NjE0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjYyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjYyCmFlQXduaGh3eU81NEZ5NXU2NHZUa1ZmSElkWlZRZGNLaklhQ0krTWY4aFBESUExRGthZHo5YzBiem14NEVYUkgwTHlUd1BRblpIUXhJM0Voa0lORERRPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.62/Cale-AI-Workbench-light-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGhhS0dpRXVYK0piRk5GS1BWMHJwTnJJNTJxZzBabTVKS2Q5OE1hd1dUZmJuakhaVGhGYU5HcVZhWGVDc2NqZnk1U0g2cGVaaUhOV2ZnMTZNbjFjd3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDE1OTIwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjYzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjYzClRsMGVIQjRpSjRpd0JkYkVZYkp1aENuYVNVaGFXemo1UzN2Q2djWkc0MGRUd2JDMGJNRFczbTlNTkl6L0Y1RHZGbW9WM3lBc3Y5ams0NERMcU0ycUNnPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.63/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
