@@ -1,11 +1,11 @@
 {
-  "version": "0.24.69",
-  "pub_date": "2026-11-23T19:57:25Z",
-  "notes": "Video Studio now draws larger local originals for photo shots and generated photo references. A still photograph requested in a script can go straight into the film. A phone-frame test generated a 1,152 × 2,048 lighthouse photograph and rendered a four-second clip with audio on an RTX 3060.\n\nWhen recording a script for a saved clip, choose “Keep the clip’s soundtrack under my script.” Music Studio lowers the original soundtrack while the narrator speaks and brings it back for music breaks. Full-length compatible clips keep their original picture packets.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/66f7d10097e876b0fa3433ea5e3b8e68b3dee5d1)",
+  "version": "0.24.70",
+  "pub_date": "2026-11-23T23:00:56Z",
+  "notes": "Chat now puts saved conversations in a searchable column beside the active thread. Type to filter titles and previews, or use Search saved messages to jump directly to a match. You can start a chat, switch threads with an unfinished draft, and copy a reply. At narrower window sizes the conversation list opens as a drawer.\n\nThe Cale Media layout adds a serif conversation title, teal user bubbles, a Cale-branded reply and a message box anchored to the bottom. Web search, attachments, saved files, voice, camera and project tools remain available.\n\nDesktop checks covered draft restoration, full-text search, a locally answered message, copying replies and reload at desktop and compact sizes. Separate regression checks covered private previews and interrupted replies.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/b9a29dc0dfb795241aba925d2df239890d014559)",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.69/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGpyQ3BaYXpmTW01WFVvVUE4TEVOMjhlN1pEM3U3SGRxZDV5YXZqMG5mc0xEMy9qYkNqT2lLdm9JWGRHejIyTVFsLzk3ZStIUGRnOEFqdFhsY3QrNWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDYzMjIxCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjY5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjY5CjcyV2ErRGRPUVFZaWplanZ5eTZXRXRQdkYveWtZUlhRNEd4YmxlRWFVaUgyMmVBN1UyRlJsSVhsV05QNGV1aHV2cDZqQzdyUmhHaVZKdW0zRFhrSEJ3PT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHN6UFFtdm9oVXRVZUZvTFUxb0s2NWp5S1BqQUsxSndTRWZxRUJtZFVhYVc3eUQxUDdYUER0STRKUE0raUR5eGQ0clZ3Vm10VGcwRW96UThiNTNrbFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDc0NzcwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjcwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjcwCllVdmhJQzFlRnlQNUgzWkF4eDQ3T2lERjNEWkxwRmJsTGhFRWhmY09tM2VBeThUQ2p6ZzVnTms0MkREZkRJYjgwVEhLSmZ5UU5weUprbTdOY0FSUEFnPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.70/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
