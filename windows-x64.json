@@ -1,11 +1,11 @@
 {
-  "version": "0.24.65",
-  "pub_date": "2026-11-23T08:42:42Z",
-  "notes": "Video Studio now uses an offline graphics renderer automatically for supported map shots, an illustrated glacial rebound cross-section and music videos that call for a speaker moving with the beat. Other scenes continue through the footage generator. Both kinds of shot can appear in one video.\n\nLong screenplays can reuse matching illustrated shots. A four-minute Great Lakes test with three distinct illustrations, a repeated map and generated scene audio finished in 2 minutes 2 seconds on the development PC. Its finished MP4 decoded to 3,840 frames. Timing depends on the mix of graphics and generated footage.\n\nThis release also fixes timing at cuts between graphics and generated footage and keeps quick graphics renders out of estimates for generated footage.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/c2c860c987396f92eda36e431a9a0019a74921dc)\r\n",
+  "version": "0.24.66",
+  "pub_date": "2026-11-23T09:50:32Z",
+  "notes": "Documentaries and geography explainers can now write and speak narration for visual-only scenes. The local narrator reads above quiet scene audio with timed captions. Scripts with supplied speaking parts retain their words. Requests for ambient sound only remain supported.\n\nIllustrated maps move between a regional overview and closer shoreline views. Great Lakes maps visit individual lakes, and the glacial cross-section shows the ground moving as the ice recedes.\n\nThe documentary writer reuses its local model across scenes and removes speaker labels from generated narration.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/59a2346975136b372f85af15fe3be12c948e8529)\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHVOWFRWMkFsM2hvekVSTUFTTFhQUXJFQ3RXQXRPQndVUUdITUtXTTFaV04xa1VZbWE3ODNvZ0pSU2hYb2hQNFdJazh5azJLa0ZQTXFmeThQU2pHb0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDIzMjg0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjY1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjY1CnJKZ1FPRm00QUxZa01wRThJYUhoS0lsSlowZ2xjY1E1R1dPeE1mcFFBNnlaNmF6QWNwNEZyNFJQQTFiRGMzdEQvNVlRMkFETFAxaERvR0xHTUNrVUN3PT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.65/Cale-AI-Workbench-light-Setup.exe"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.66/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHY2NTlyVHRzTkJPZXRuQ3JsVy85YmlGMmlEV1ZBNVFWRi93ODRGUmMyTElCU3NVSHM5OEtnRHJ2MTNhaTYwdm9vUDBSemV1K3BJUTBWNDV3U1NvOVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDI2Mzk3CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjY2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjY2CmdZV1JwQmhHNXdhVXlBREJ5UVhQNXZNU3hudjQySzV5K2pDRThWV3pQZUo3UGVhYVJsSWUycUlSNjBUZ0Fsa1pGSS90ZUEzeXhsSGtsaEpwbFYyYUJnPT0K"
     }
   }
 }
