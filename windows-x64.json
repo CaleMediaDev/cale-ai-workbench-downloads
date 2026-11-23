@@ -1,11 +1,11 @@
 {
-  "version": "0.24.63",
-  "pub_date": "2026-11-23T06:39:46Z",
-  "notes": "Video Studio's Recent clips section now uses a responsive thumbnail gallery. Play a clip from its still, copy its full original prompt, and scroll to load older videos. Clip length and recorded render time are shown separately. New render timings include soundtrack preparation; older clips display the timing saved by their renderer when available.\n\nShare to socials opens the selected MP4 in File Explorer and opens the chosen YouTube, TikTok, or Facebook site. You control the upload and publication.\n\nThe sidebar update is included. Click Workbench in the header to open your projects.\n\n[Development record and verification](https://github.com/CaleMediaDev/cale-ai-workbench/commit/b48aa712808e92575ff54c13d0f4fa5262aa7555)\r\n",
+  "version": "0.24.64",
+  "pub_date": "2026-11-23T07:02:21Z",
+  "notes": "Facebook sharing now opens the Reel composer and selects the saved MP4 from Recent clips or a saved music video. Sign in on first use, review your video, and choose when to post. The previous button opened the Facebook feed with the file still in Explorer.\n\nThe desktop gallery was tested with a real sample MP4 and a controlled browser composer. The attachment matched the original file byte for byte. Live Facebook reached sign-in. Signed-in draft verification was skipped.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/31d6e9f0d8864e25092b7c30d90017b41fcaa6d4)\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGhhS0dpRXVYK0piRk5GS1BWMHJwTnJJNTJxZzBabTVKS2Q5OE1hd1dUZmJuakhaVGhGYU5HcVZhWGVDc2NqZnk1U0g2cGVaaUhOV2ZnMTZNbjFjd3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDE1OTIwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjYzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjYzClRsMGVIQjRpSjRpd0JkYkVZYkp1aENuYVNVaGFXemo1UzN2Q2djWkc0MGRUd2JDMGJNRFczbTlNTkl6L0Y1RHZGbW9WM3lBc3Y5ams0NERMcU0ycUNnPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.63/Cale-AI-Workbench-light-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGtCSHhQcG9mdUYrODFkaGh6WlNyaCtsKzdiYnVETVpGek5ydnYzZ0pqSUxkaFphVVJrUTkyd1MwZ09wOGZ6TGROajZmNWJTSGFIblAzb05SYjY5VHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDE3MjU4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjY0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjY0CmxGdGlsR0xRVVdoc2dmWFhlZC9zakZuOXhkZTJuZmU1ZXhvY2JXaXl3cVpZbWIvekdKWGs5Tk9zV3FvcWJ5MzhoaDFrSzM1elJnQzFIUm9sVnJGSERRPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.64/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
