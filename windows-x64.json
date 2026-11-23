@@ -1,11 +1,11 @@
 {
-  "version": "0.24.70",
-  "pub_date": "2026-11-23T23:00:56Z",
-  "notes": "Chat now puts saved conversations in a searchable column beside the active thread. Type to filter titles and previews, or use Search saved messages to jump directly to a match. You can start a chat, switch threads with an unfinished draft, and copy a reply. At narrower window sizes the conversation list opens as a drawer.\n\nThe Cale Media layout adds a serif conversation title, teal user bubbles, a Cale-branded reply and a message box anchored to the bottom. Web search, attachments, saved files, voice, camera and project tools remain available.\n\nDesktop checks covered draft restoration, full-text search, a locally answered message, copying replies and reload at desktop and compact sizes. Separate regression checks covered private previews and interrupted replies.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/b9a29dc0dfb795241aba925d2df239890d014559)",
+  "version": "0.24.71",
+  "pub_date": "2026-11-23T23:54:27Z",
+  "notes": "Workbench now opens directly in Chat. If you close it from another studio, the next launch brings back your last conversation and unsent draft.\n\nRemoved Camera and the “Existing Workbench routing” selector from Chat. You can type and send immediately, use Voice, or attach a saved file.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/46df7be37d2956167ec1b8c1a5952336d16f5a5e)",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHN6UFFtdm9oVXRVZUZvTFUxb0s2NWp5S1BqQUsxSndTRWZxRUJtZFVhYVc3eUQxUDdYUER0STRKUE0raUR5eGQ0clZ3Vm10VGcwRW96UThiNTNrbFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDc0NzcwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjcwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjcwCllVdmhJQzFlRnlQNUgzWkF4eDQ3T2lERjNEWkxwRmJsTGhFRWhmY09tM2VBeThUQ2p6ZzVnTms0MkREZkRJYjgwVEhLSmZ5UU5weUprbTdOY0FSUEFnPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.70/Cale-AI-Workbench-light-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGxQWHBxMEdqVFJWdy80SXZkUTU3MFhPU28yME5QRk5GMnNSK09rNDVrcm1WOXpCQjE1R29kdmpVODEyZjd6WnYxUjdlK01DTkZwbk1UcVlVSHE1MHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDc3OTk5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjcxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjcxCkFLeFJqY2x0OXNvS0oySXlhMFhIYnJYV0tDaGViN1hlS1hmcktaQnY1OVd4bmFBV1V3aVJ0NkdMS0xTRGR4TTJybldydW5XR0R5d3FXemlVSjRpREJnPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.71/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
