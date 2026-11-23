@@ -1,11 +1,11 @@
 {
-  "version": "0.24.66",
-  "pub_date": "2026-11-23T09:50:32Z",
-  "notes": "Documentaries and geography explainers can now write and speak narration for visual-only scenes. The local narrator reads above quiet scene audio with timed captions. Scripts with supplied speaking parts retain their words. Requests for ambient sound only remain supported.\n\nIllustrated maps move between a regional overview and closer shoreline views. Great Lakes maps visit individual lakes, and the glacial cross-section shows the ground moving as the ice recedes.\n\nThe documentary writer reuses its local model across scenes and removes speaker labels from generated narration.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/59a2346975136b372f85af15fe3be12c948e8529)\n",
+  "version": "0.24.67",
+  "pub_date": "2026-11-23T11:09:20Z",
+  "notes": "Video Studio automatically writes and records narration for product demos, walkthroughs, documentaries, and explainers. Music Studio casts a speaking voice and creates a backing track. The offline speech model reads the script in that voice across scenes. Workbench mixes speech above the music, times the captions, and saves the finished video to Recent clips.\n\nOpen a saved video and choose Record voice-over to make a new version with the same picture. Workbench can reuse its saved script or recover spoken words from older clips locally. A replacement script or timed captions are optional.\n\nFixed Windows path handling for local speech recognition and supported the floating-point WAV files produced by Music Studio. \r\n\r\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/eea94c9c07f6334d47e2a82ae88bc7e52a5c27a1)",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.66/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHY2NTlyVHRzTkJPZXRuQ3JsVy85YmlGMmlEV1ZBNVFWRi93ODRGUmMyTElCU3NVSHM5OEtnRHJ2MTNhaTYwdm9vUDBSemV1K3BJUTBWNDV3U1NvOVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDI2Mzk3CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjY2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjY2CmdZV1JwQmhHNXdhVXlBREJ5UVhQNXZNU3hudjQySzV5K2pDRThWV3pQZUo3UGVhYVJsSWUycUlSNjBUZ0Fsa1pGSS90ZUEzeXhsSGtsaEpwbFYyYUJnPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.67/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGc1ekdoWWVIT0JQMlI2SzIranZrMlRxdERXNlg2N0NJL2tsS3laeEdsZHR5LzNoOXlyTGoyNDFKSWx2NUtWYlpGZ0k1cDh4b05NVUh6N2lJQXBudUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDMyMDY4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjY3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjY3ClNGQTB4S2YrbWJqSm1hVDhRUUlmbXNxd3Fab2FUL1VlZHIxMThreitQRkJFU1pSakcwbkhKVXpFaDZmVVFiT3gzeTgrZ3NaaEN2azlJK0R0NGpHd0R3PT0K"
     }
   }
 }
