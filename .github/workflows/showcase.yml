@@ -1,0 +1,17 @@
+name: Public concert playback
+on:
+  workflow_dispatch:
+  deployment_status:
+permissions:
+  contents: read
+jobs:
+  play:
+    if: github.event_name == 'workflow_dispatch' || (github.event.deployment.environment == 'github-pages' && github.event.deployment_status.state == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Follow the public README and decode the concert
+        run: python3 checks/public-playback.py
