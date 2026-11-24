@@ -1,11 +1,11 @@
 {
-  "version": "0.24.72",
-  "pub_date": "2026-11-24T04:51:46Z",
-  "notes": "Cale AI Workbench 0.24.72 for Windows\n\n- Music performances default to one camera for the whole song. Request cutaways or a montage when you want to change angles.\n- Realistic performances carry nine full-resolution frames and the matching audio into each new render block. The original camera reference holds the framing while the performer moves.\n- Fixed periodic soft frames during decoding. The decoder keeps the full motion context for each block and uses spatial tiles to fit the image in GPU memory.\n- Realistic performances use the recorded soundtrack and a second detail pass. Phone videos render at 864 × 1536 and 24 frames per second.\n- Offline setup verifies and reuses matching local model files. The eight additional model files total 54.3 GB on a fresh PC.\n\nDevelopment commits are 9b3161163b6f7d91b569d2fc330fb7a5a9fbb9f7 and 9de8a5afc3493dd2de4652e2a4b92cf805be0d51.",
+  "version": "0.24.73",
+  "pub_date": "2026-11-24T07:40:25Z",
+  "notes": "Video Studio now casts the solo singer once for the picture and the sung soundtrack. New performances get their own vocal blend. To bring back an unnamed singer, choose **Use this performer** on their saved clip and describe the next music video. The selection clears after submission. The original clip supplies the visual reference, which can also carry over its framing and wardrobe.\n\nThe singing model runs locally. Managed offline setup obtains and verifies approximately 2.54 GB of additional assets once. The update preserves existing clips and projects.\n\nVerified the native music video tests, performance and screenplay regressions, the offline model manifest, and real GPU conversions of both a fresh cast and a previously approved vocalist.\n\nSource commit [b0933c1](https://github.com/CaleMediaDev/cale-ai-workbench/commit/b0933c10b718ab3f00560dbb9236fb377f730ce7).\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG4yTUhtd1hOQVkyV1RWVks4d3ZZUUdxWGNIamJMNWpHMXgxN21RUmhPbFovYmJsNjQ0dTk5aFUxTmhrTFdJN3M5S3IyaHJCc1VSd0JLWTlBaU5sWGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDk1MjU5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjcyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjcyCm1vRlBLMVRSVHFncTV1NTRudVlTYXFxVDNKejZRMDlseUpCMHRuSmJiazJQcXJmVllMcGhobDVxakY0d1Q1dGFoZk1LSWtUS3Ric3ZFOVNkU1o1YUNBPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.72/Cale-AI-Workbench-light-Setup.exe"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.73/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHJKSFFybTYvV0x0ZlBSV2NMNUkrUzZveEc4M0FvbDhSL2ZjQWZ4amNVQkdqZGVZMkUyM1NYTXZpVSt5VGlBMVZTUUdWNkRPWnVLc21LbDBHajd6WWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTA1OTUzCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjczX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjczClhWckZRU1pYcUVUZWFOWjdTSkx4ejQ1c0VXM3FLaGl1Yzcxek1mWkR4dUJ6QktlU0kxNmtDMnRVc3hWZWFXdEJsbC9ORGo3dDBkUGFXYnJiTEp2ckFnPT0K"
     }
   }
 }
