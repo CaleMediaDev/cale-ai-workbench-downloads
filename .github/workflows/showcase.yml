@@ -13,5 +13,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
+      - name: Install the media decoder
+        run: sudo apt-get -qq update && sudo apt-get -qq install --no-install-recommends -y ffmpeg
       - name: Follow the public README and decode the concert
         run: python3 checks/public-playback.py
