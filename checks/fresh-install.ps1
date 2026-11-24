@@ -1,4 +1,4 @@
-param([Parameter(Mandatory)][ValidatePattern('^rust-v[0-9]+\.[0-9]+\.[0-9]+$')][string]$Tag)
+param([Parameter(Mandatory)][ValidatePattern('^rust-v[0-9]+\.[0-9]+\.[0-9]+$')][string]$Tag,[switch]$Interactive)
 $ErrorActionPreference='Stop'
 $version=$Tag.Substring(6)
 $base=Join-Path $env:LOCALAPPDATA 'Cale Workbench Preview'
@@ -22,7 +22,7 @@ public static class InstallerWindow {
 '@
 $timer=[Diagnostics.Stopwatch]::StartNew()
 $themed=[version]$version -ge [version]'0.24.76'
-$manual=$themed -and $env:ImageOS -eq 'win25'
+$manual=$themed -and $Interactive
 $setup=if($manual){Start-Process -PassThru -FilePath $package}else{Start-Process -PassThru -FilePath $package -ArgumentList '/P'}
 $seen=$false
 $clickedInstall=$false

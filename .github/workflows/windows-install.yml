@@ -26,4 +26,5 @@ jobs:
         shell: pwsh
         env:
           RELEASE_TAG: ${{ inputs.tag || github.event.release.tag_name }}
-        run: ./checks/fresh-install.ps1 -Tag $env:RELEASE_TAG
+          TEST_OS: ${{ matrix.os }}
+        run: ./checks/fresh-install.ps1 -Tag $env:RELEASE_TAG -Interactive:($env:TEST_OS -eq 'windows-2025')
