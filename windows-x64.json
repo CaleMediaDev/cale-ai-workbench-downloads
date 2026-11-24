@@ -1,11 +1,11 @@
 {
-  "version": "0.24.82",
-  "pub_date": "2026-11-24T13:24:19Z",
-  "notes": "Fixed-camera interviews now keep the original actor and room throughout the shot. Video Studio detects unexpected substitutions, bridges the affected frames using the surrounding performance, and then synchronizes the visible speaker to their own recording.\n\nYou can describe the scene in one prompt or paste a screenplay with the interviewer marked (O.S.). Previously generated fixed-camera interviews offer **Restore interview continuity** in the player. The exported MP4 includes both voices and optional subtitles.\r\n",
+  "version": "0.24.83",
+  "pub_date": "2026-11-24T19:52:26Z",
+  "notes": "Fixed a dialogue timing issue in fixed-camera interviews. The camera subject now listens while the off-camera interviewer speaks. During answers, Workbench aligns the visible lips to the recorded voice and times closed-lip consonants against the English dialogue.\n\nNew interviews use the correction automatically. Open an earlier fixed-camera interview in Recent clips and choose **Repair dialogue sync** to make a new copy with the original voices and subtitles. The alignment data ships with the installer and works offline.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.82/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHAxS3hCaGlsbytGNEFMdWZNWHpzV21ULytoM01xRGFDTEl3NjZoRnJVR3Biak53NWx4eVBmeUFkMVhGR1dtdTRYdVdHSXE5TW9mWER0L0VaR1pVc3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTI2MzA4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjgyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjgyCmZvQ1ZNNFB0TE1QeUw0K2ZaWXhLb0VaSmZMMkN0N0p6czRVZFFvVEhYbjR2NGxJWm90Y1UrUjFCTE9lSHJDYWxOVVRyNUdQd09GdEM2dm5ZQXFvZ0FBPT0K"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGsyLzI3dVA0RUx1SVNaK290VWdXQlM0TDIzaCs4R1I5Tmk3aW45WTFNWnNJTHl5SUtMWU5JRjJ5dVBRekZodnVNTEtRRFAzV01SZXk0V2JjL1FXMUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ5NzU5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjgzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjgzCnlVelRyVE1VTndCVmVBUlovSHVPQy9iK2piM2FJU0ZxTjBLVTlQU2lISjUrbDhJR3JNZmNxd2tMczJ1aC9jRjh0QlBoS0tnaWZDNUo0ZDRJTTQzSURnPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.83/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
