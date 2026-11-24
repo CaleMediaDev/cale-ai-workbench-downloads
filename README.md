@@ -8,11 +8,16 @@
 
 ## Last Light at the Rink
 
-Sage Hart opens on the first sung line in this one-minute rock performance made with C.A.L.E. Press play and use the speaker control to hear the song.
+[![Play Last Light at the Rink with sound](docs/stills/play-last-light.jpg)](https://calemediadev.github.io/cale-ai-workbench-downloads/films/last-light-at-the-rink.mp4)
+
+**[Play the 1-minute film](https://calemediadev.github.io/cale-ai-workbench-downloads/films/last-light-at-the-rink.mp4)** · [Open the screening room](https://calemediadev.github.io/cale-ai-workbench-downloads/#watch)
+
+<details>
+<summary>Play inside GitHub</summary>
 
 https://github.com/user-attachments/assets/adcb5622-1e79-40b4-ba0b-2d1599f1bdc2
 
-[Open the dedicated player](https://calemediadev.github.io/cale-ai-workbench-downloads/)
+</details>
 
 ## One prompt, one finished music video
 
