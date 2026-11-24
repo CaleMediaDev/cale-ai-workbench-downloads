@@ -1,11 +1,11 @@
 {
-  "version": "0.24.78",
-  "pub_date": "2026-11-24T11:24:02Z",
-  "notes": "## Stable playback in Recent clips\n\nWhen Workbench cannot open a saved preview, the player now displays one error and a **Retry playback** button. Background gallery refreshes keep the message steady. Retry playback or select the clip again after the file becomes available.\n\nSource revision `9117660b9ac543ec74e2fd32f35f1fd2a95102ad`.",
+  "version": "0.24.80",
+  "pub_date": "2026-11-24T12:07:13Z",
+  "notes": "**Video Studio — spoken continuations**\n\nExtend a saved performance with a spoken line and a new ending. Workbench now isolates the audible vocal from the selected singer’s clip, uses it to match the new voice, and carries the room sound into the dialogue. The camera composition is anchored while the actor speaks. Finishing a spoken continuation now includes a local pass on the lips using the finished recording.\n\nPreviously saved spoken extensions have a **Preview lip sync** action that saves a separate copy. Workbench keeps the original opening, the soundtrack and the ending on their existing timeline.\n\nThis update also includes the saved-video playback recovery and flicker fix.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGtZVEZpQnQ0RHU5SDk1UnBpNHhmODk1K3FoN2lybzZydVUrMGQvaEtrRGJWMGEybXBqQ05oNDhtUUt2WDBOajdzYXN0WmNBbTVyM3RPYWV3ai90THd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTE5Mjg0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0Ljc4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0Ljc4CmR2SGt5NURFTE9QUmdadzA0aDZWWEtJSjc1S1YxeDlTRVJUeXRyeFRncm13eHZqVFFhVExGRDFJcnVJVGwwZFE1cSt5VWs2RnE5UlArZ3JZaDN6SERRPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.78/Cale-AI-Workbench-light-Setup.exe"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.80/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHJpdmRDcy9NVzE3M1V5RkdqbkdKQlNTZ055Zm80ak1FMDhlaFNiaENZL3FYTEZDR0Q3UWVzM2dvZkNkZDl3c0dnOUVxS3NmQmtiVXRLOEo5dkplMmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTIxNjAwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjgwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjgwCk90aEl6YVRaQ0RTTm1BVHlhWldSZnJsL3FFK1RZbUxLQzBXR3FkSGRlTVpkWnkyMnVoUTlqdGtNQmpUaWpzaDBnV05aUmtqMXB4Um9YV3ZJQysvR0F3PT0K"
     }
   }
 }
