@@ -1,8 +1,7 @@
 param([Parameter(Mandatory)][ValidatePattern('^rust-v[0-9]+\.[0-9]+\.[0-9]+$')][string]$Tag)
 $ErrorActionPreference='Stop'
 $version=$Tag.Substring(6)
-$base=Join-Path $env:LOCALAPPDATA 'Programs/Cale Workbench Preview'
-$exe=Join-Path $base 'cale-workbench-next.exe'
+$base=Join-Path $env:LOCALAPPDATA 'Cale Workbench Preview'
 $key='HKCU:/Software/Microsoft/Windows/CurrentVersion/Uninstall/Cale Workbench Preview'
 if((Test-Path $base) -or (Test-Path $key) -or (Test-Path "$env:APPDATA/com.calemedia.workbench.next")){throw 'A fresh profile is required'}
 $release=Invoke-RestMethod "https://api.github.com/repos/CaleMediaDev/cale-ai-workbench-downloads/releases/tags/$Tag"
@@ -25,11 +24,13 @@ $setup=Start-Process -PassThru -FilePath $package -ArgumentList '/P'
 $seen=$false
 while(!$setup.HasExited -and $timer.Elapsed.TotalMinutes -lt 7){
     $setup.Refresh()
-    if($setup.MainWindowHandle){$panel=[InstallerWindow]::FindWindowEx($setup.MainWindowHandle,[IntPtr]::Zero,'CaleProjectionProgress',$null); if($panel -and [InstallerWindow]::IsWindowVisible($panel)){$seen=$true}}
+    if($setup.MainWindowHandle -ne [IntPtr]::Zero){$panel=[InstallerWindow]::FindWindowEx($setup.MainWindowHandle,[IntPtr]::Zero,'CaleProjectionProgress','C.A.L.E. installation progress'); if($panel -and [InstallerWindow]::IsWindowVisible($panel)){$seen=$true}}
     Start-Sleep -Milliseconds 150
 }
 if(!$setup.HasExited -or $setup.ExitCode -ne 0){throw 'Setup failed or timed out'}
 $timer.Stop()
+$base=(Get-ItemPropertyValue -Path $key -Name InstallLocation).Trim('"')
+$exe=Join-Path $base 'cale-workbench-next.exe'
 if((Get-Item $exe).VersionInfo.ProductVersion -ne $version -or !(Test-Path $key)){throw 'Missing installed version or registration'}
 $node=Join-Path $base 'runtime/node.exe'
 $env:PLAYWRIGHT_BROWSERS_PATH=Join-Path $base 'runtime/browsers'
@@ -46,9 +47,9 @@ try{
     $deadline=(Get-Date).AddSeconds(70)
     do{$app.Refresh();if($app.HasExited){throw 'Workbench exited before first launch'}
         $view=Get-CimInstance Win32_Process -Filter "Name='msedgewebview2.exe' AND ParentProcessId=$($app.Id)"
-        if($app.MainWindowHandle -and $view){break};Start-Sleep -Seconds 1
+        if($app.MainWindowHandle -ne [IntPtr]::Zero -and $view){break};Start-Sleep -Seconds 1
     }while((Get-Date) -lt $deadline)
-    if(!$app.MainWindowHandle -or !$view){throw 'The application window and WebView2 did not start'}
+    if($app.MainWindowHandle -eq [IntPtr]::Zero -or !$view){throw 'The application window and WebView2 did not start'}
     $shortcuts=@(Get-ChildItem ([Environment]::GetFolderPath('DesktopDirectory')),([Environment]::GetFolderPath('Programs')) -Filter '*Cale*lnk' -Recurse -File)
     if(!$shortcuts.Count){throw 'Workbench shortcut missing'}
     if([version]$version -ge [version]'0.24.76' -and !$seen){throw 'Projection Room did not appear'}
