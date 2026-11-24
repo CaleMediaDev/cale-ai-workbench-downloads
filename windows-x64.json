@@ -1,11 +1,11 @@
 {
-  "version": "0.24.80",
-  "pub_date": "2026-11-24T12:07:13Z",
-  "notes": "**Video Studio — spoken continuations**\n\nExtend a saved performance with a spoken line and a new ending. Workbench now isolates the audible vocal from the selected singer’s clip, uses it to match the new voice, and carries the room sound into the dialogue. The camera composition is anchored while the actor speaks. Finishing a spoken continuation now includes a local pass on the lips using the finished recording.\n\nPreviously saved spoken extensions have a **Preview lip sync** action that saves a separate copy. Workbench keeps the original opening, the soundtrack and the ending on their existing timeline.\n\nThis update also includes the saved-video playback recovery and flicker fix.\r\n",
+  "version": "0.24.82",
+  "pub_date": "2026-11-24T13:24:19Z",
+  "notes": "Fixed-camera interviews now keep the original actor and room throughout the shot. Video Studio detects unexpected substitutions, bridges the affected frames using the surrounding performance, and then synchronizes the visible speaker to their own recording.\n\nYou can describe the scene in one prompt or paste a screenplay with the interviewer marked (O.S.). Previously generated fixed-camera interviews offer **Restore interview continuity** in the player. The exported MP4 includes both voices and optional subtitles.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.80/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHJpdmRDcy9NVzE3M1V5RkdqbkdKQlNTZ055Zm80ak1FMDhlaFNiaENZL3FYTEZDR0Q3UWVzM2dvZkNkZDl3c0dnOUVxS3NmQmtiVXRLOEo5dkplMmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTIxNjAwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjgwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjgwCk90aEl6YVRaQ0RTTm1BVHlhWldSZnJsL3FFK1RZbUxLQzBXR3FkSGRlTVpkWnkyMnVoUTlqdGtNQmpUaWpzaDBnV05aUmtqMXB4Um9YV3ZJQysvR0F3PT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.82/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHAxS3hCaGlsbytGNEFMdWZNWHpzV21ULytoM01xRGFDTEl3NjZoRnJVR3Biak53NWx4eVBmeUFkMVhGR1dtdTRYdVdHSXE5TW9mWER0L0VaR1pVc3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTI2MzA4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjgyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjgyCmZvQ1ZNNFB0TE1QeUw0K2ZaWXhLb0VaSmZMMkN0N0p6czRVZFFvVEhYbjR2NGxJWm90Y1UrUjFCTE9lSHJDYWxOVVRyNUdQd09GdEM2dm5ZQXFvZ0FBPT0K"
     }
   }
 }
