@@ -1,0 +1,29 @@
+name: Fresh Windows install
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Published Windows release tag
+        required: true
+        type: string
+  release:
+    types: [published]
+permissions:
+  contents: read
+jobs:
+  install:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-2022, windows-2025]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Install the public release and start Workbench
+        shell: pwsh
+        env:
+          RELEASE_TAG: ${{ inputs.tag || github.event.release.tag_name }}
+        run: ./checks/fresh-install.ps1 -Tag $env:RELEASE_TAG
