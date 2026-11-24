@@ -1,11 +1,11 @@
 {
-  "version": "0.24.71",
-  "pub_date": "2026-11-23T23:54:27Z",
-  "notes": "Workbench now opens directly in Chat. If you close it from another studio, the next launch brings back your last conversation and unsent draft.\n\nRemoved Camera and the “Existing Workbench routing” selector from Chat. You can type and send immediately, use Voice, or attach a saved file.\n\n[Development record](https://github.com/CaleMediaDev/cale-ai-workbench/commit/46df7be37d2956167ec1b8c1a5952336d16f5a5e)",
+  "version": "0.24.72",
+  "pub_date": "2026-11-24T04:51:46Z",
+  "notes": "Cale AI Workbench 0.24.72 for Windows\n\n- Music performances default to one camera for the whole song. Request cutaways or a montage when you want to change angles.\n- Realistic performances carry nine full-resolution frames and the matching audio into each new render block. The original camera reference holds the framing while the performer moves.\n- Fixed periodic soft frames during decoding. The decoder keeps the full motion context for each block and uses spatial tiles to fit the image in GPU memory.\n- Realistic performances use the recorded soundtrack and a second detail pass. Phone videos render at 864 × 1536 and 24 frames per second.\n- Offline setup verifies and reuses matching local model files. The eight additional model files total 54.3 GB on a fresh PC.\n\nDevelopment commits are 9b3161163b6f7d91b569d2fc330fb7a5a9fbb9f7 and 9de8a5afc3493dd2de4652e2a4b92cf805be0d51.",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGxQWHBxMEdqVFJWdy80SXZkUTU3MFhPU28yME5QRk5GMnNSK09rNDVrcm1WOXpCQjE1R29kdmpVODEyZjd6WnYxUjdlK01DTkZwbk1UcVlVSHE1MHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDc3OTk5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjcxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjcxCkFLeFJqY2x0OXNvS0oySXlhMFhIYnJYV0tDaGViN1hlS1hmcktaQnY1OVd4bmFBV1V3aVJ0NkdMS0xTRGR4TTJybldydW5XR0R5d3FXemlVSjRpREJnPT0K",
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.71/Cale-AI-Workbench-light-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG4yTUhtd1hOQVkyV1RWVks4d3ZZUUdxWGNIamJMNWpHMXgxN21RUmhPbFovYmJsNjQ0dTk5aFUxTmhrTFdJN3M5S3IyaHJCc1VSd0JLWTlBaU5sWGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDk1MjU5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjcyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjcyCm1vRlBLMVRSVHFncTV1NTRudVlTYXFxVDNKejZRMDlseUpCMHRuSmJiazJQcXJmVllMcGhobDVxakY0d1Q1dGFoZk1LSWtUS3Ric3ZFOVNkU1o1YUNBPT0K",
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.72/Cale-AI-Workbench-light-Setup.exe"
     }
   }
 }
