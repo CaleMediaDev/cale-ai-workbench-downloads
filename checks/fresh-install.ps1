@@ -17,17 +17,37 @@ public static class InstallerWindow {
   [DllImport("user32.dll", CharSet=CharSet.Unicode)]
   public static extern IntPtr FindWindowEx(IntPtr parent, IntPtr after, string className, string title);
   [DllImport("user32.dll")] public static extern bool IsWindowVisible(IntPtr window);
+  [DllImport("user32.dll")] public static extern bool PostMessage(IntPtr window, uint message, IntPtr wparam, IntPtr lparam);
 }
 '@
 $timer=[Diagnostics.Stopwatch]::StartNew()
-$setup=Start-Process -PassThru -FilePath $package -ArgumentList '/P'
+$themed=[version]$version -ge [version]'0.24.76'
+$manual=$themed -and $env:ImageOS -eq 'win25'
+$setup=if($manual){Start-Process -PassThru -FilePath $package}else{Start-Process -PassThru -FilePath $package -ArgumentList '/P'}
 $seen=$false
+$clickedInstall=$false
+$clickedFinish=$false
 while(!$setup.HasExited -and $timer.Elapsed.TotalMinutes -lt 7){
     $setup.Refresh()
-    if($setup.MainWindowHandle -ne [IntPtr]::Zero){$panel=[InstallerWindow]::FindWindowEx($setup.MainWindowHandle,[IntPtr]::Zero,'CaleProjectionProgress','C.A.L.E. installation progress'); if($panel -and [InstallerWindow]::IsWindowVisible($panel)){$seen=$true}}
+    if($setup.MainWindowHandle -ne [IntPtr]::Zero){
+        $panel=[InstallerWindow]::FindWindowEx($setup.MainWindowHandle,[IntPtr]::Zero,'CaleProjectionProgress','C.A.L.E. installation progress')
+        if($panel -ne [IntPtr]::Zero -and [InstallerWindow]::IsWindowVisible($panel)){
+            $details=[InstallerWindow]::FindWindowEx($panel,[IntPtr]::Zero,'Button','Show details')
+            if($details -ne [IntPtr]::Zero -and [InstallerWindow]::IsWindowVisible($details)){$seen=$true}
+            if($manual){
+                $caption=if(!$clickedInstall){'Install Workbench'}else{'Finish'}
+                $action=[InstallerWindow]::FindWindowEx($panel,[IntPtr]::Zero,'Button',$caption)
+                if(!$clickedFinish -and $action -ne [IntPtr]::Zero -and [InstallerWindow]::IsWindowVisible($action)){
+                    if(![InstallerWindow]::PostMessage($action,245,[IntPtr]::Zero,[IntPtr]::Zero)){throw "Could not click $caption"}
+                    if($clickedInstall){$clickedFinish=$true}else{$clickedInstall=$true}
+                }
+            }
+        }
+    }
     Start-Sleep -Milliseconds 150
 }
 if(!$setup.HasExited -or $setup.ExitCode -ne 0){throw 'Setup failed or timed out'}
+if($manual -and (!$clickedInstall -or !$clickedFinish)){throw 'Interactive installation did not complete all three pages'}
 $timer.Stop()
 $base=(Get-ItemPropertyValue -Path $key -Name InstallLocation).Trim('"')
 $exe=Join-Path $base 'cale-workbench-next.exe'
@@ -42,7 +62,8 @@ const {chromium}=require(process.env.CHECK_PLAYWRIGHT);
 '@
 & $node -e $source
 if($LASTEXITCODE){throw 'Installed browser failed'}
-$app=Start-Process -FilePath $exe -PassThru
+$app=Get-Process -Name 'cale-workbench-next' -ErrorAction SilentlyContinue |Where-Object Path -eq $exe |Select-Object -First 1
+if(!$app){$app=Start-Process -FilePath $exe -PassThru}
 try{
     $deadline=(Get-Date).AddSeconds(70)
     do{$app.Refresh();if($app.HasExited){throw 'Workbench exited before first launch'}
@@ -55,7 +76,7 @@ try{
     if([version]$version -ge [version]'0.24.76' -and !$seen){throw 'Projection Room did not appear'}
     if([version]$version -ge [version]'0.24.76' -and (Test-Path "$env:PLAYWRIGHT_BROWSERS_PATH/chromium_headless_shell-1252")){throw 'Redundant browser shipped'}
     $bytes=(Get-ChildItem $base -Recurse -File|Measure-Object Length -Sum).Sum
-    $receipt="Windows $([Environment]::OSVersion.Version), Workbench $version, setup $($timer.Elapsed.TotalSeconds.ToString('0.0')) seconds, download $($asset[0].size) bytes, installed $bytes bytes, projection visible $seen, first launch and offline bundled Chromium passed."
+    $receipt="Windows $([Environment]::OSVersion.Version), Workbench $version, setup $($timer.Elapsed.TotalSeconds.ToString('0.0')) seconds, download $($asset[0].size) bytes, installed $bytes bytes, projection visible $seen, interactive welcome and finish $clickedFinish, first launch and offline bundled Chromium passed."
     $receipt
     if($env:GITHUB_STEP_SUMMARY){Add-Content $env:GITHUB_STEP_SUMMARY $receipt}
 }finally{if(!$app.HasExited){[void]$app.CloseMainWindow()}}
