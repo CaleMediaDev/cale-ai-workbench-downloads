@@ -1,11 +1,11 @@
 {
-  "version": "0.24.91",
-  "pub_date": "2026-11-25T04:29:20Z",
-  "notes": "## Performer reference and vocal timing\n\nRealistic solo music videos now use the isolated lead vocal to guide the singer’s mouth while preserving the approved song for playback. When you bring a performer back, Video Studio selects clear reference views of the same performer from the saved clip. It keeps five-second hooks and explicit continuous-camera shots together and can place cutaways in longer instrumental gaps.\n\n[Source commit 971cd66](https://github.com/CaleMediaDev/cale-ai-workbench/commit/971cd66682a34e8a8adfda673ea1ed67d126bb16)\n\nTested on the same approved five-second country recording with identical playback audio. A fresh country-song generation also retained the lead vocal through the audio review screen. [Clean Windows install checks](https://github.com/CaleMediaDev/cale-ai-workbench-downloads/actions/runs/45546774975)\r\n",
+  "version": "0.24.93",
+  "pub_date": "2026-11-25T10:55:30Z",
+  "notes": "Native prompt caching for faster follow-ups; optional local acceleration with existing capability limits. Source dc368a9ffbe7563d68ad63c08a3b776b08031d70",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.91/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGhURTRiM2tGSm1palhFTmU3MXpPTDluV3FyM3p4U0VJY3R6QU1YUDlHbHQvOW52eXlRNS80dStmY0g3ZHlQbUhSemNneFUyKzhrMkx4cFhlbDdCNkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTgwNzIzCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjkxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjkxCk1hOFN5ZGZTNHFmcG85SkhCVWF2em4vUkxzcGZuTzhHYkMxUnppcWFUa1lRM1dydVlKekNWUE1OYnpBam5SSlJPc1RrbUNjNWMvWVo2RHhTZjhFb0FRPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.93/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG1ZVy9DWnJlbjlQU051cXdacU5UZkk3ek9FVzhhc3BwU2JvT1o2L0Q1K3RrcG9jakxhN1pDM05FbkFXaXBRNHZqeUg3OE80VVQvNzVwNVovUzcydVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjAzNzM1CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjkzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0LjkzClc0L081eGxuYzVEQVAxWGNGclVFd0FQM3RZUmkybi9ydVhwTnR0WEJOcHlMN3pNUHY4azNjSkdtVGxGSHdLdVRGbmZWUmtRcTVncFJaUlpUb0JNdkN3PT0K"
     }
   }
 }
