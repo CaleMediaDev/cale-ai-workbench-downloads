@@ -1,11 +1,11 @@
 {
-  "version": "0.24.102",
-  "pub_date": "2026-11-26T17:49:32Z",
-  "notes": "Supplied lyrics, instrumental rests and corrected singer checks; full native music-video acceptance recorded. Source 225095b702929ea0002af4e4b9ebcad06c2a97a5",
+  "version": "0.24.103",
+  "pub_date": "2026-11-26T23:34:12Z",
+  "notes": "Repeated already-applied line edits no longer create false recovery debt; opted-in local 35B MTP coding default. Source 3f31a3ba2b5a1827295bfa4c1e409603bf49b3ce",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.102/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG9vejdtYjV0a0c0YTFrUURzSDJiTFBSQmI3ZkRsUmh3NjhwQzBDOXE5Zlk3c1NpcHpVeG5CdHVQckVFTGFYemRJY2xmVG5QNHE5UTB0S0lNUElqK1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzA4MDI3CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDIKanlIVjRYVkZFekppWGxqUXVDUjljWXVYczhIUFpYb2R3TmlYNTdheUt1bU52MmJGUTRCVHE1UkYwdnlzUGV0ZzNNbUhXNWhiSTdyby9yaExleXFkREE9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.103/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG9taEczWFZpbTFBaVNka3Fhb1J3T1R1VXFyd1A5akVHOG4yR013ajhTWXRUVXJPVkNEM1BnZHlmMUJnT2xOUkVCNmNBT2ozaitVclcyaGdRMXZRbGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzM1OTU5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDMKMFRQa0hFbHhhSE02WEFTd1oyMll4N2FWQUx2N2ZGOGtseUVETlJYMlBGSlVoem1Xb3d2SU03dlVHaG9nQ3BoK2dRZ0pRbmJ1VzllRGxoWWg3V2c5Q0E9PQo="
     }
   }
 }
