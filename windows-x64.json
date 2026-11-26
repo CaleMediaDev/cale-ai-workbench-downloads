@@ -1,11 +1,11 @@
 {
-  "version": "0.24.94",
-  "pub_date": "2026-11-26T00:12:32Z",
-  "notes": "Optional verified performance decoder with visible fallback; Original stays default. Source 92300ab9527648a2bd4fde3f8c7048a081e77ed9",
+  "version": "0.24.95",
+  "pub_date": "2026-11-26T01:00:24Z",
+  "notes": "Optional isolated CUDA 13 performance runtime with visible fallback; Original stays default. Source f55c25a7367d3429a6163e6cf4cff7c3fc3fd1a8",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.94/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGp3UmYwOEpQYU16TDAzZWsxMTBXeE5jZHVrSWFuaFlubGpaK0ZpVFhTMm95NWltMXdDby9Dd1FDTmU4ckJ0azZNV2ZXUEZYdXF2aXhYVURWZ2hPc0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjUxNzUyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0Ljk0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0Ljk0ClRCNEVXQktxL3JLTGNBOGNsUXR2clgyS2pGVW1PR0U4eUk2VXUrVy96ZjRoc1VteU1yVU11N1pYUm93N25Tb2JXa3oxa2Q0MXliNmtnblFrZHlLL0FRPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.95/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHVmNzNaRXNZcGdkM3lpOTNKY1l1UG1UamErVUZBM0NQY2IxWUJYMHpsWm4yQkM1ZjNTQmM1amt1NmNjQ0h2T3BWTUZRSjU5cWpiY3g5aUFFOWQvU0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjU0Mjg0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0Ljk1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0Ljk1Cjhzb2RadzlSNXVWVzdKQis3S2NZL1dhbVh0aDkzR0M3eDhBQUFiU0hQSVZrdzFBR3Vja2dVNkNhTzBDRVZKWDhqR0tSbU9iRXdkWHRPSklLbS9yQkJRPT0K"
     }
   }
 }
