@@ -1,11 +1,11 @@
 {
-  "version": "0.24.97",
-  "pub_date": "2026-11-26T02:44:01Z",
-  "notes": "Reusable singing-video prompt conditioning with a bounded local cache. Source 1ceaba4f9c0b06138384dcd1c548f7ecd5fb4c48",
+  "version": "0.24.98",
+  "pub_date": "2026-11-26T03:29:30Z",
+  "notes": "Reusable image/audio preparation with a bounded local cache; unchanged8+3steps. Source f7a293a4322182e547a5431313d0d76eef7b3340",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.97/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHI5bWwxdjVHcWRxZVhnRTZYcWdiTTF0MklHak5JZUE4ZllIY3hCQmVjSXFrcnNRLzNBU05yM2E0WHFIa2w5ck4xRmRpRWJnbG5ndXFpcGFOa2t0c3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjYwNzI1CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0Ljk3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0Ljk3CnB6cFJBVmxZa0dWaVZ5d2J5UlROODZ3NzlNVzI0MFd6b2xYY0hZWjJ3clRJUVJUZHVCNGYrTEZRQnl1QTBpcVpIaDJCOVNZdzdheUQwdWdOUFBVTkNRPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.98/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHRzU2x0eUNGUHBXUmJUd1hoSUdHZFo2bDJ3cm4yRmduUnBLR1M1cFVsMllYRzZyZkh5WWx4OE5jV0lqMUFUa3VLMDVYd0FCd3NmRjEyakNrL2ZDVmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjYzNDc0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0Ljk4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0Ljk4CjhIS056UlZZY2NJNGRteTZGcHZkdmVCNDBCejVWR3JOKy93YkIzWHptUmJzbmxGWGg5bE1zQzR4MXh1VTFyczFuSWRzUXVNbmN2YUhiNnM3U3JZSERnPT0K"
     }
   }
 }
