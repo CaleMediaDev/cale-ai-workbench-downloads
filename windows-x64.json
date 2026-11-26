@@ -1,11 +1,11 @@
 {
-  "version": "0.24.99",
-  "pub_date": "2026-11-26T04:26:30Z",
-  "notes": "Warm video worker with60second idle RAM release; unchanged8+3steps. Source 942e977e23d10184b0007d31d883ca7322dad7ba",
+  "version": "0.24.100",
+  "pub_date": "2026-11-26T05:26:47Z",
+  "notes": "Smarter GPU memory for CUDA13+Pruna; identical output in4s/6schecks, preserved idle cleanup and8+3steps. Source a1c1f7ab8b3ceff60cc63ea6baf6d1fdc1c4d6bb",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.99/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHVjRkFtU2N0cDd4UU5vbXc5Z1J1NlBlMU5JTnpFREh3RkJrdXN3L1JyMitscnNSYTJyN01HN1BBcHlOcTN0VUxZZ0J3NUVPQUJHRDVIbmdHaklyM3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY2NzE0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0Ljk5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjI0Ljk5Cm1hbVNaNG52ZW9lekNwQ3dOTmdjL3RQM3hRUHREb3ZEOGFwR2M0eGxWZW83NWdqV01HKzgyN2xjdkxXOXFLaThyZHA5c0pZKzNCR202ODArQmtseENnPT0K"
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.100/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHRzTStSeTFrYmtINUtZMFBVMFFMTFZndXpza2lZaEpyTUdYaWtSbGp6eDRVQXRsOWJrRm5ERUt1UWFpS2U2UUd6RXpKQllxNUNpT3dISy9iYmJHS3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjcwMzczCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDAKV0UxM3phT1FVU3pHcTBlenBobW9aVTFhVks3NXZ3RUxuT3Z1RkVTWXpFcVd5R1BzUHBMT1dBY1YyckcycVNMRVZpQjRMQXhTNHJLbUVUN1pRcVhkQXc9PQo="
     }
   }
 }
