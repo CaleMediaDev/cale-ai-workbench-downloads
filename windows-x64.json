@@ -1,11 +1,11 @@
 {
-  "version": "0.24.108",
-  "pub_date": "2026-11-27T02:30:14Z",
-  "notes": "Avoid accidental private-history routing for ordinary writing and verify the exact fast Chat profile without a full catalog scan. Source 90d4b27cc5c22a0eaed43cf6c1b9d483fdd0aa0d",
+  "version": "0.24.109",
+  "pub_date": "2026-11-27T03:42:31Z",
+  "notes": "Reuse Chat workers, prepare the verified fast model only when idle, and avoid unnecessary private-memory model reloads. Source 158dfedbc506e265a36db09a8c3a966a1790a04a",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.108/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHU2TGlZbDUxYUhOL3RjMG1SakV1OTJ6a2NiK0U2S2txSi9XRHhLVEFxMm5VMmU1ZGc4V3lFT0Fnb1ppM0NraE5lSUJGTmViaHdtdVUrWVFFdUxsaVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQ2NDYwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDgKZjYrM3lrUnhxTTlORG03aUY4OTNYL3ROL29tUS84OThCOUdsTUFwUXlJZC94cjN2a2VLOFdCZHZjWFg1ODE3Tm1KUlhVck5nZFVHY051aHkvclkvREE9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.109/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGpJaUowdy9aQ2h0NVVhWWpVNDdickd2NXFCajlheXZ4TXBENW9zY2Y4OHdMYzFOZFdSNloyOExWWk82Q3pkYmdjMy9pdUJEcEJnZGNPNG9mbWxNbVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzUwMjk4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDkKM3J2bHowbkRKL2pYbVhDKzJSYXVvKzdYZS90bG43MGU0clFPd0pwc3hndk53YzNOdFRLZnFSNjJmZytiNFU3T1ZDM2VHOFVqbmR3TzUrcjdKdndhQ2c9PQo="
     }
   }
 }
