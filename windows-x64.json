@@ -1,11 +1,11 @@
 {
-  "version": "0.24.112",
-  "pub_date": "2026-11-27T09:26:48Z",
-  "notes": "Long Fast draft,custom lengths and a stable length picker. Source 2fdc48b9b05506489c2e4f8238b1f704981d3ea3",
+  "version": "0.24.113",
+  "pub_date": "2026-11-27T21:50:02Z",
+  "notes": "Fast draft keeps one complete song and singer reference,with optional new HD pictures using the same recording. Source 6d697b52522c626f75db7d052db9e6b5cfefb7e6",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.112/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHZaRWJjT2xDSE4wbGJ0U3dlNW1YbWx3TnF1TmpnZm4zZ1BocEV4dEF2QmJJSTcxQlhzL2J0K20xTUY0QjJ1dzBpYkliYmdVZUhKQ05XUHZlQ080eHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzcxMDgxCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTIKSzVwZlk1VmtpMktLeVpsYmdMK2Zyb1NjMEhvbW41Mk1hajllaTEzMUpuYlJtOHA2N1Y1VWpMRlprYS93THlSQXBVTE5xWkZWVWpZOHFTbFFYeEFnQWc9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.113/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGhWREVZZ0w4b3ZzZWovSGJSU21DaVdORmE1ZFhDNnAvWEpMZmozVkdkMUw2YkQ0STAwQUNkbmdweHNqYUlhYzVjZXdHZE5lWGFHQjNZWVBHSXVxZUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODE1MDc2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTMKZGYwZGdidnV4T0diRWE3TFdLK3NxRlNyRm1BZ3ZrbEhlVVdIR2c2N09vd3JjcUxKemx3S0puTkR2dnBFYWEvWjVFby8wOThZcHhHSkdsRGdsS0tTQ1E9PQo="
     }
   }
 }
