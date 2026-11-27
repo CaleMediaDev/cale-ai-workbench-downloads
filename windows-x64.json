@@ -1,11 +1,11 @@
 {
-  "version": "0.24.103",
-  "pub_date": "2026-11-26T23:34:12Z",
-  "notes": "Repeated already-applied line edits no longer create false recovery debt; opted-in local 35B MTP coding default. Source 3f31a3ba2b5a1827295bfa4c1e409603bf49b3ce",
+  "version": "0.24.104",
+  "pub_date": "2026-11-27T00:09:40Z",
+  "notes": "Avoid unnecessary personal-memory searches for generic requests; correct C.A.L.E chat label; retain 35B MTP coding default. Source 35d57cdf9cc6c8735d8ee1f6a53bad175d5e59a8",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.103/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG9taEczWFZpbTFBaVNka3Fhb1J3T1R1VXFyd1A5akVHOG4yR013ajhTWXRUVXJPVkNEM1BnZHlmMUJnT2xOUkVCNmNBT2ozaitVclcyaGdRMXZRbGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzM1OTU5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDMKMFRQa0hFbHhhSE02WEFTd1oyMll4N2FWQUx2N2ZGOGtseUVETlJYMlBGSlVoem1Xb3d2SU03dlVHaG9nQ3BoK2dRZ0pRbmJ1VzllRGxoWWg3V2c5Q0E9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.104/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG9CZmtkYzBXeUFUc3VCZExLcXdUamxqVlVlSUc3cUZIcHpiZUZKNWxkbWFKN1JRcXN2bERnaHorWTlIMU1JYStuOTFHblpUWmRSSjFrUC9oak05OGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzM4MDM4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDQKM0g3M0xnSllIT1U3bmQzZnROejVqZFpVSFdQd2RBRGhUYy9NUWxndDNNNm15TUN0ckY1eForOWxLNU9wMTBHQ3JQYnV0VWFSVnNHV1F0bFB5UTZ5RFE9PQo="
     }
   }
 }
