@@ -1,11 +1,11 @@
 {
-  "version": "0.24.109",
-  "pub_date": "2026-11-27T03:42:31Z",
-  "notes": "Reuse Chat workers, prepare the verified fast model only when idle, and avoid unnecessary private-memory model reloads. Source 158dfedbc506e265a36db09a8c3a966a1790a04a",
+  "version": "0.24.110",
+  "pub_date": "2026-11-27T04:36:07Z",
+  "notes": "Preserve bounded compiled GPU kernels across isolated private-model starts; keep the same model and privacy checks. Source 084512295a6e65720682be894750170dd287feae",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.109/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGpJaUowdy9aQ2h0NVVhWWpVNDdickd2NXFCajlheXZ4TXBENW9zY2Y4OHdMYzFOZFdSNloyOExWWk82Q3pkYmdjMy9pdUJEcEJnZGNPNG9mbWxNbVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzUwMjk4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDkKM3J2bHowbkRKL2pYbVhDKzJSYXVvKzdYZS90bG43MGU0clFPd0pwc3hndk53YzNOdFRLZnFSNjJmZytiNFU3T1ZDM2VHOFVqbmR3TzUrcjdKdndhQ2c9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.110/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGdzMzZuTHppT2t2b2Y2c1U1K1VBMUwxRllyWXBzRFhVSmRnclBRUS9zOXlVblBmWFZnZGhKRXlnSjA1VFBMeW9BRldSeTdxcldjODVJTExuYS91Ymd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzUzOTUyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTAKbDZSN2pEeCtQNlVaMHU3Q2w5NVlPVHRyVHordnlPalVSWG95SHdTWkZYb3VMTndiNS8xeUpEcjM3L2FqcXJnaktSRWI4VDdaUmdCRGVEcTdYMnBQQnc9PQo="
     }
   }
 }
