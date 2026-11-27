@@ -1,11 +1,11 @@
 {
-  "version": "0.24.105",
-  "pub_date": "2026-11-27T00:46:51Z",
-  "notes": "Automatic Chat prefers the exact tested installed 2B profile for less repetition; explicit choices and coding pins preserved. Source ab3565f9ba7338b5cbfe1b6dc5a287a976542c8f",
+  "version": "0.24.106",
+  "pub_date": "2026-11-27T01:06:45Z",
+  "notes": "Keep typing in Chat across redraws and compose a next draft during replies. Source 3b92e0aea131e00421d70c35ed72bb83eae2863e",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.105/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHVpVTZFNE5CRnAya1ZMWWxhSWxva3RlMVI3U0N2WlMvcWgxdENPeFNoNjJxVWhGQzdFVE1lWDd2Q2pMWVJoRG9uUXM4SC9xVDd1RUhpY2kvV3NjU1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQwMjg5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDUKWlJuSW41SGlDemkzc3ZSS3dYb0psbldPYjI1WUs1eDRZUC82VzJVdXJwVFhKeTE4K05UUXJ4czRwVUZBZ1BGZUg3d2NWbGd6U0wzTTdBeVNzbnFMQmc9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.106/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG5hWUoxQWZqb2Z1VDVzeWZQZHhYU2JhOHkyQndyV3FWNVBScFVUTk9BaEJDa0YvSndpSURtaWR1TDREMEFrNVJsQ1RqdU8vRll2Ujl0RjNXVG9udEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQxNTE5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDYKL2pBd3R2dENvdW1qcG5OV3dGalhVMEFwZmM0QXdGOTZycjZqaVQxN1k1bHpvaEtpajI3TXRlMkMya2RPODlxZzZxd0U5ZW5RbE40aHRXUVp5YTlQRGc9PQo="
     }
   }
 }
