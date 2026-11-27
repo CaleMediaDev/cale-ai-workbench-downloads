@@ -1,11 +1,11 @@
 {
-  "version": "0.24.107",
-  "pub_date": "2026-11-27T01:27:53Z",
-  "notes": "Update pending replies in place and preserve Chat reading position. Source 80ac484105e5a6803551a9c56b20a54ccfa9f07d",
+  "version": "0.24.108",
+  "pub_date": "2026-11-27T02:30:14Z",
+  "notes": "Avoid accidental private-history routing for ordinary writing and verify the exact fast Chat profile without a full catalog scan. Source 90d4b27cc5c22a0eaed43cf6c1b9d483fdd0aa0d",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.107/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHNuUFJDckdyall4b0Vxa2U2NS9mbWZObkcwdHllTFpWa2kvdUMvVFp4Y0NtbDlaN0dTQ2dwTDR2WENHcEllcU9IVThaa2NrWm5jSHljeUhBOE5HdEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQyNzYwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDcKcHB3UC84K0ZvZVVhcWxxU3BhUS9wc0lkekRQQjYwY0pTVElhK1R6OXFGL3JaUlZRZHp0Z0RHYTZxc1lRYzZhNW56N0FLdjBnYWU3dVdOVVBKWmwwRGc9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.108/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHU2TGlZbDUxYUhOL3RjMG1SakV1OTJ6a2NiK0U2S2txSi9XRHhLVEFxMm5VMmU1ZGc4V3lFT0Fnb1ppM0NraE5lSUJGTmViaHdtdVUrWVFFdUxsaVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQ2NDYwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDgKZjYrM3lrUnhxTTlORG03aUY4OTNYL3ROL29tUS84OThCOUdsTUFwUXlJZC94cjN2a2VLOFdCZHZjWFg1ODE3Tm1KUlhVck5nZFVHY051aHkvclkvREE9PQo="
     }
   }
 }
