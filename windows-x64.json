@@ -1,11 +1,11 @@
 {
-  "version": "0.24.106",
-  "pub_date": "2026-11-27T01:06:45Z",
-  "notes": "Keep typing in Chat across redraws and compose a next draft during replies. Source 3b92e0aea131e00421d70c35ed72bb83eae2863e",
+  "version": "0.24.107",
+  "pub_date": "2026-11-27T01:27:53Z",
+  "notes": "Update pending replies in place and preserve Chat reading position. Source 80ac484105e5a6803551a9c56b20a54ccfa9f07d",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.106/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG5hWUoxQWZqb2Z1VDVzeWZQZHhYU2JhOHkyQndyV3FWNVBScFVUTk9BaEJDa0YvSndpSURtaWR1TDREMEFrNVJsQ1RqdU8vRll2Ujl0RjNXVG9udEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQxNTE5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDYKL2pBd3R2dENvdW1qcG5OV3dGalhVMEFwZmM0QXdGOTZycjZqaVQxN1k1bHpvaEtpajI3TXRlMkMya2RPODlxZzZxd0U5ZW5RbE40aHRXUVp5YTlQRGc9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.107/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHNuUFJDckdyall4b0Vxa2U2NS9mbWZObkcwdHllTFpWa2kvdUMvVFp4Y0NtbDlaN0dTQ2dwTDR2WENHcEllcU9IVThaa2NrWm5jSHljeUhBOE5HdEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQyNzYwCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDcKcHB3UC84K0ZvZVVhcWxxU3BhUS9wc0lkekRQQjYwY0pTVElhK1R6OXFGL3JaUlZRZHp0Z0RHYTZxc1lRYzZhNW56N0FLdjBnYWU3dVdOVVBKWmwwRGc9PQo="
     }
   }
 }
