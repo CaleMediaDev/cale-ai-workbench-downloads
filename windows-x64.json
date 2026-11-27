@@ -1,11 +1,11 @@
 {
-  "version": "0.24.104",
-  "pub_date": "2026-11-27T00:09:40Z",
-  "notes": "Avoid unnecessary personal-memory searches for generic requests; correct C.A.L.E chat label; retain 35B MTP coding default. Source 35d57cdf9cc6c8735d8ee1f6a53bad175d5e59a8",
+  "version": "0.24.105",
+  "pub_date": "2026-11-27T00:46:51Z",
+  "notes": "Automatic Chat prefers the exact tested installed 2B profile for less repetition; explicit choices and coding pins preserved. Source ab3565f9ba7338b5cbfe1b6dc5a287a976542c8f",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.104/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG9CZmtkYzBXeUFUc3VCZExLcXdUamxqVlVlSUc3cUZIcHpiZUZKNWxkbWFKN1JRcXN2bERnaHorWTlIMU1JYStuOTFHblpUWmRSSjFrUC9oak05OGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzM4MDM4CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDQKM0g3M0xnSllIT1U3bmQzZnROejVqZFpVSFdQd2RBRGhUYy9NUWxndDNNNm15TUN0ckY1eForOWxLNU9wMTBHQ3JQYnV0VWFSVnNHV1F0bFB5UTZ5RFE9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.105/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHVpVTZFNE5CRnAya1ZMWWxhSWxva3RlMVI3U0N2WlMvcWgxdENPeFNoNjJxVWhGQzdFVE1lWDd2Q2pMWVJoRG9uUXM4SC9xVDd1RUhpY2kvV3NjU1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzQwMjg5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjEwNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMDUKWlJuSW41SGlDemkzc3ZSS3dYb0psbldPYjI1WUs1eDRZUC82VzJVdXJwVFhKeTE4K05UUXJ4czRwVUZBZ1BGZUg3d2NWbGd6U0wzTTdBeVNzbnFMQmc9PQo="
     }
   }
 }
