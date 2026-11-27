@@ -1,11 +1,11 @@
 {
-  "version": "0.24.111",
-  "pub_date": "2026-11-27T08:21:20Z",
-  "notes": "Fast native-audio drafts, optional Make HD and idle worker release. Source 3d0f2a70f7f921e2d05c10dbc55c209e1489393b",
+  "version": "0.24.112",
+  "pub_date": "2026-11-27T09:26:48Z",
+  "notes": "Long Fast draft,custom lengths and a stable length picker. Source 2fdc48b9b05506489c2e4f8238b1f704981d3ea3",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.111/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHVXdFVLYjBDN2tMUXRVSkwyU21sZDB6S2NiWlRYVUM5c2dYZi9MYXYrcU1pN1oxSk9oUVQxbHpqeHNYcUNnWDhOQzdwQktaZ2tGK25QOXBZa0MxendZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzY3MzYyCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTEKc3hYQTJXUllSYVdWQ0tDK2s4eTJQYmZwc215VTlnWVYwbXkweGgxNlFuMnRkelozT3U4Q2tDRXpwcldmcEFDL3F1dVpLZHFUWFBUUjBreUlzNlFoQUE9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.112/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHZaRWJjT2xDSE4wbGJ0U3dlNW1YbWx3TnF1TmpnZm4zZ1BocEV4dEF2QmJJSTcxQlhzL2J0K20xTUY0QjJ1dzBpYkliYmdVZUhKQ05XUHZlQ080eHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzcxMDgxCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTIKSzVwZlk1VmtpMktLeVpsYmdMK2Zyb1NjMEhvbW41Mk1hajllaTEzMUpuYlJtOHA2N1Y1VWpMRlprYS93THlSQXBVTE5xWkZWVWpZOHFTbFFYeEFnQWc9PQo="
     }
   }
 }
