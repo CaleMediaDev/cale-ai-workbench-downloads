@@ -1,11 +1,11 @@
 {
-  "version": "0.24.113",
-  "pub_date": "2026-11-27T21:50:02Z",
-  "notes": "Fast draft keeps one complete song and singer reference,with optional new HD pictures using the same recording. Source 6d697b52522c626f75db7d052db9e6b5cfefb7e6",
+  "version": "0.24.114",
+  "pub_date": "2026-11-27T22:08:28Z",
+  "notes": "Remove outdated draft text and technical rendering controls from the Video page. Source 94e82c8d671a7bdb37f6925410ebffe80265f970",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.113/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGhWREVZZ0w4b3ZzZWovSGJSU21DaVdORmE1ZFhDNnAvWEpMZmozVkdkMUw2YkQ0STAwQUNkbmdweHNqYUlhYzVjZXdHZE5lWGFHQjNZWVBHSXVxZUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODE1MDc2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTMKZGYwZGdidnV4T0diRWE3TFdLK3NxRlNyRm1BZ3ZrbEhlVVdIR2c2N09vd3JjcUxKemx3S0puTkR2dnBFYWEvWjVFby8wOThZcHhHSkdsRGdsS0tTQ1E9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.114/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHVHSk1XRHY1b1hDems5R1BlZUwxek1XV3paYTB5VUdWeVY5NlJpY2hhcGVndjQ5OW5jTitER2RJbXRlZVJRUWlyRTBSSmRjb1l3SnBhd1ZlN2paeWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODE3MTQ2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTQKU095NFJULzdwMUphT3IyMm1nZnFGdEhYRmlSYkVoS05sUG1JK05GL2luU0VEK0d3OWZSNUMvM3BNUzBmUCtFa1FXVHZ2K0lpREI1bWZ5WXB2VGVMQmc9PQo="
     }
   }
 }
