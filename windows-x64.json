@@ -1,11 +1,11 @@
 {
-  "version": "0.24.115",
-  "pub_date": "2026-11-27T22:37:22Z",
-  "notes": "Use an uploaded recording as a style reference for a new song and video. Source 0e357e4a47b2ae5786bda9b381f33a3fe6fc93d1",
+  "version": "0.24.116",
+  "pub_date": "2026-11-28T04:23:37Z",
+  "notes": "Keep an approved recording unchanged while Cale creates the video. Source bd70b2340469f450963dca7c4b110b8fb625fec0",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.115/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHJ0eVMwUWNwN0JUT2svYTh4V3BiaklQeEFXbmVyeEUrQ2c3c1lnN0NmZlFSaFJYOUh2NDVSM002NnY0aC93MkU0eVNVZ1VOUkNiem8vV3BjRG9TL1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODE4NTM5CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTUKOWtMUFlJWHZVdFRvVFFlL2J6czNqUTFnblFvYlNuTDdkMTRQUURVaVVjWUxnN0RBQ2h0NFJOTTZ2cDc0MFRpcmp5d2pHTWMvaE1jNUhkRi9nQWNwREE9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.116/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG12ckJDWUZQWCtDZXVIWlg0UHZqS3B1Y1pWR1NZOHJLeWFJcUxwL0JUZHhtUExyYjJvU296UDNBMEhiNkovR2tUWnp3ZjI4SkFKMXJHeGl2RnVhcXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODM2MzE2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTYKNnVaRy9WMjhrSmcwbFlscExLRm5iT2tXRGtJR2RiYldQY1YvTndxQ0xsU1FtNEVzc2hVTFAvWWRXOXhZa013NWhrTmY3aUoxQzdaeGFPeWxwMzJEQnc9PQo="
     }
   }
 }
