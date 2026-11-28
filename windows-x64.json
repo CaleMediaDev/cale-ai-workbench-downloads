@@ -1,11 +1,11 @@
 {
-  "version": "0.24.118",
-  "pub_date": "2026-11-28T08:06:52Z",
-  "notes": "Add local reference-based song continuation and audio review. Source 1f6a21bcafcbfebb28c1f4a50abc50679a808873",
+  "version": "0.24.119",
+  "pub_date": "2026-11-28T10:17:54Z",
+  "notes": "Fix singing-face false stops, retain rendered sections on quality failure, and simplify chat progress. Source 99878a909cdc22833954161f5c1873493c5df04e",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.118/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG9ObHJSSW9MQXprOUs0N1hoQUdiWGdIeGZDeDh3SitBV1NsLzhNOEdYak80M3pMRi92cmtuSUxGSzZoVkdnaEVBYXF1OEc1S0I3dkFWOTM1a0creVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzMDU0CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTgKTTJVUUFxdys5NllJU3BiTVp3bWFyMjh6WXFZbVBlOG5nYWhnclIxcjE3eHpXUXkycWlCTWM0UHA3WVdXMlhmRlJiV241OTJBeWF6N3VQdTUvRmFVQ3c9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.119/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OHBFSkNTckhTNzZJcUtVOGliQVlWUmxHeTlPM2Mza3VPTGNLQ3BpY2RpMFZ1NU1NdjN5SlJ6RitjSkt6N0VPTXpsTUlneU45OXVXaHBhTTFOVldleGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODYwOTM3CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTkKRFVJZDRvWmVXdU1pOU9nZ2xRZUJkL0sxUFBPZVRBWUtyZHV3WCtDeTE2M0grS0RGOVBFS1REb0pZMjVuaHlrUnJnREtQSHBMUmJ1TjNnUHA2dzY5Q1E9PQo="
     }
   }
 }
