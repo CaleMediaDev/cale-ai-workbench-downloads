@@ -1,11 +1,11 @@
 {
-  "version": "0.24.116",
-  "pub_date": "2026-11-28T04:23:37Z",
-  "notes": "Keep an approved recording unchanged while Cale creates the video. Source bd70b2340469f450963dca7c4b110b8fb625fec0",
+  "version": "0.24.117",
+  "pub_date": "2026-11-28T06:59:22Z",
+  "notes": "Create Standard-quality videos directly from an explicit Chat recording request. Source 8d4b90216e14d95ca80f2339bf139aa7c0e636b7",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.116/Cale-AI-Workbench-light-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OG12ckJDWUZQWCtDZXVIWlg0UHZqS3B1Y1pWR1NZOHJLeWFJcUxwL0JUZHhtUExyYjJvU296UDNBMEhiNkovR2tUWnp3ZjI4SkFKMXJHeGl2RnVhcXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODM2MzE2CWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTYKNnVaRy9WMjhrSmcwbFlscExLRm5iT2tXRGtJR2RiYldQY1YvTndxQ0xsU1FtNEVzc2hVTFAvWWRXOXhZa013NWhrTmY3aUoxQzdaeGFPeWxwMzJEQnc9PQo="
+      "url": "https://github.com/CaleMediaDev/cale-ai-workbench-downloads/releases/download/rust-v0.24.117/Cale-AI-Workbench-light-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdXJzVDY0ZzJ1OGpYZFBOWHFMUzAwMTZlWlZOZjFYM29sRldQa0V1VXlQOVFQa2NON0F2T3FuR05ZOG03anZhNEtNV3JuQldZU2RtcUVLcmFDNjZyZWh4a3RYVVYwMEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODQ2MzMxCWZpbGU6Q2FsZSBXb3JrYmVuY2ggUHJldmlld18wLjI0LjExN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yNC4xMTcKZ0JzY0RJWUNIUG1XNzVsKzdjMU9RcWhJTVJKQjhZd3Zwa0orMVc0NzlNbUoxZmtxUDcxZmVKRGRVVHNGTllpblE4RkNmWDJkOXJrZW05cmlJeVhVQXc9PQo="
     }
   }
 }
